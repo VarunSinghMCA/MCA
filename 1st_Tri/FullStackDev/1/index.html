@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Tags Example</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>
+            Wildly Expensive JPEGs
+            <span class="subheading">(Also known as NFTs)</span>
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="#"> Buy </a> </li>
+                <li><a href="#"> Resources </a> </li>
+                <li><a href="#"> Explore </a> </li>
+            </ul>
+        </nav>
+
+    </div>
+</header>
+<main>
+    <section>
+        <div class="container">
+            <h2>Meta-Pigeon Sneaker NFT: $33,000</h2>
+            <img  src="images/sneakers-purple.jpeg" alt="Purple and silver sneakers" class="main-image">
+            <h3>At $33k, this NFT sneaker is super good value!</h3>
+            <p>If you've got lots of money and you're a bit silly, NFTs are a great way to pay for something that doesn't have any intrinsic value or even exist. Tech fashionistas are jumping on the NFT bandwagon and spending eye-watering sums of money on crypto images. Our advice: spend the weekend <a href="#">crafting an NFT</a>, and by this time next week, you'll be a millionaire.</p>
+            <a href="#" class="btn btn-dark">Buy NFTs</a>
+            <a href="#" class="btn btn-mid">More info</a>
+        </div>
+    </section>
+    <aside>
+        <div class="container">
+            <h2>What is an NFT?</h2>
+            <p>An NFT (non-fungible token) is a unique digital asset that represents ownership of a specific item or piece of content, such as art, music, or virtual goods. Unlike cryptocurrencies like Bitcoin, which are fungible and can be exchanged for one another, NFTs are one-of-a-kind and cannot be replaced with something else.</p>
+            <p>In essence, NFTs use blockchain technology to verify the authenticity and ownership of digital items, allowing creators to sell their work directly to collectors without intermediaries.</p>
+            <p>For more information, check out our <a href="#" id="open_btn">NFT FAQ</a>.</p>
+        </div>
+
+    </aside>
+    <section class="section-two">
+        <div class="container">
+            <h2>For the true Crypto-connoisseur</h2>
+            <div class="section-two-image-container">
+                <img src="images/crypto-punk.jpeg" alt="punk with blach hair and red and blue glasses" class="feature-image">
+                <img src="images/bag.svg" alt="Seven items from a game listed in white on a black background" class="feature-image">
+            </div>
+            <p>Is $33k for sneakers too basic for you? No problem! This CryptoPunk (left) is a steal at $6.6 million, making Bag #748 (right) a total bargain at $1.4 million. And by the way, that's not a VS Code screenshot we included by mistake. Those eight lines of white text on a black background is the actual NFT we're selling.</p>
+            <a href="#" class="btn btn-light">About Us</a>
+            <a href="#" class="btn btn-mid">Contact</a>
+            <p>Still not convinced? To be honest, nor are we. That's why we're selling them, not buying them.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2022 FoolsGold.com</p>
+    </footer>
+</main>
+<!-- highlight mark tag  -->
+<mark>This text is highlighted using the &lt;mark&gt; tag.</mark>
+<!-- Address  -->
+<address>
+  Contact us at:<br>
+  123 Main Street,<br>
+  City, Country<br>
+  Email: info@example.com
+</address>
+<!-- Details  -->
+<details>
+  <summary>Click to see more details</summary>
+  Here are some additional details revealed using the &lt;details&gt; tag.
+</details>
+<!-- dialogue  -->
+<dialog id="myDialog">
+  This is a dialog box using the &lt;dialog&gt; tag. <br>
+  <center><button id="close_btn">Click Me to close</button></dialog></center>
+</dialog>
+<!-- <button id="open_btn">Click Me to open dialog</button> -->
+<p>
+  &copy; 2025 Example Company. All rights reserved.
+</p>
+
+<blockquote cite="https://www.example.com">
+  This is a blockquote. It is used for longer quotations.
+</blockquote>
+
+<p>
+  He said, <q>This is a short quotation using the &lt;q&gt; tag.</q>
+</p>
+ <!-- aside tag  -->
+<aside>
+  <strong>Note:</strong> This is additional information placed in an &lt;aside&gt;.
+</aside>
+</body>
+
+<script>
+	const dialog = document.getElementById("myDialog");
+  	const closeButton = document.getElementById("close_btn");
+  	const openButton = document.getElementById('open_btn');
+
+  openButton.addEventListener('click', () => {
+      dialog.showModal();
+  });
+
+
+  closeButton.addEventListener("click", () => {
+    dialog.close();
+  });
+</script>
+</html>
