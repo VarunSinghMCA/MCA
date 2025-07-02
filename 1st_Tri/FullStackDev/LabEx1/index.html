@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Web Technologies</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="oxanium-bold">Modern Web Technologies</h1>
+        <nav id="main-nav">
+            <ul class="nav-links michroma-regular">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#location">Location</a></li>
+                <li><a href="#feedback">Feedback</a></li>
+            </ul>
+            <div class="menu-toggle">&#9776;</div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="content-section-html5">
+            <h2 class="michroma-bold mb">Welcome to the Techie Blog</h2>
+            <div class="content-flex">
+                <article>
+                    <h3 class="michroma-light">Exploring the Latest in Technology</h3>
+                    <p>In this blog, we dive into the exciting world of technology, sharing insights on the newest gadgets, software updates, and tech trends that are shaping our future. Whether you&apos;re a beginner or a tech enthusiast, you&apos;ll find useful tips, reviews, and guides that make technology fun and easy to understand.</p>
+                </article>
+                <aside>
+                    <h4>Key Benefits:</h4>
+                    <ul>
+                        <li>Saves Time</li>
+                        <li>Boosts Efficiency</li>
+                        <li>Reduces Costs</li>
+                    </ul>
+                </aside>
+            </div>
+        </section>
+
+        <section id="location" class="content-section-location">
+            <h2 class="michroma-bold mb-less">Your Location</h2>
+            <div id="location-data">Fetching location...</div>
+            <button id="get-location">Get My Location</button>
+            <iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=76.62963867187501%2C12.518368703890955%2C78.39569091796876%2C13.483118726287971&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?#map=10/13.0012/77.5127">View Larger Map</a></small>
+        </section>
+
+        <section id="feedback">
+            <h2 class="michroma-bold mb">Feedback Form</h2>
+            <form id="feedback-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                
+                <label for="comment">Comment:</label>
+                <textarea id="comment" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+            <div id="stored-feedback"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Varun Singh • 2547254</p>
+        <p>25 June 2025</p>
+        <p>&copy; 2025 Modern Web Technologies</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
