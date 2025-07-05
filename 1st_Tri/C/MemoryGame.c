@@ -2,8 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 
+// Global Variables
+// Define the size of the board
 #define SIZE 4
 
+// Function to initialize the board with pairs of symbols
 void initialize(char board[SIZE][SIZE], char symbols[]) {
     int index = 0;
     for (int i = 0; i < SIZE; i++) {
@@ -15,7 +18,11 @@ void initialize(char board[SIZE][SIZE], char symbols[]) {
     }
 }
 
+
+// Function to shuffle the board randomly
 void shuffle(char board[SIZE][SIZE]) {
+    // seeding for random number generation
+    // to ensure different shuffles each time the game is played
     srand(time(NULL));
     for (int i = 0; i < SIZE; i++) {
         for (int j = 0; j < SIZE; j++) {
@@ -28,23 +35,36 @@ void shuffle(char board[SIZE][SIZE]) {
     }
 }
 
+
+// Function to print the current state of the board
+// Revealed cards are shown, unrevealed cards are shown as [$]
 void printBoard(char board[SIZE][SIZE], int revealed[SIZE][SIZE]) {
     printf("\n   ");
+    // Print column headers
     for (int i = 0; i < SIZE; i++) printf("%2d ", i + 1);
     printf("\n");
     for (int i = 0; i < SIZE; i++) {
+        // Print row header
         printf("%2d ", i + 1);
+
+        // Print the board row
         for (int j = 0; j < SIZE; j++) {
             if (revealed[i][j])
                 printf(" %c ", board[i][j]);
             else
                 printf("[$]");
         }
+
         printf("\n");
     }
 }
 
+
+// Main function to run the memory game
+// Players will input the coordinates of the cards they want to reveal
 int main() {
+    // Initialize the game board and variables
+    // Create a 4x4 board and an array to track revealed cards
     char board[SIZE][SIZE];
     int revealed[SIZE][SIZE] = {0};
     char symbols[8] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'};
@@ -60,31 +80,49 @@ int main() {
     while (pairsFound < SIZE*SIZE/2) {
         printBoard(board, revealed);
 
+        // Input for the first card
+        // Prompt the user to enter the coordinates of the first card
         printf("Enter first card (row and column): ");
         scanf("%d %d", &x1, &y1);
+        // Adjust for 0-based indexing
         x1--; y1--;
+
+        // Validate input for first card
+        // Check if the input is within bounds and not already revealed
         if (x1 < 0 || x1 >= SIZE || y1 < 0 || y1 >= SIZE || revealed[x1][y1]) {
             printf("Invalid card! Try again.\n");
             continue;
         }
+
+        // Mark the first card as revealed then proceed to the second card
         revealed[x1][y1] = 1;
         printBoard(board, revealed);
-
+        // Input for the second card
         printf("Enter second card (row and column): ");
         scanf("%d %d", &x2, &y2);
+        // Adjust for 0-based indexing
         x2--; y2--;
+
+        // Validate input for second card
+        // Check if the input is within bounds, not already revealed, and not the same as the first card
         if (x2 < 0 || x2 >= SIZE || y2 < 0 || y2 >= SIZE || revealed[x2][y2] || (x1 == x2 && y1 == y2)) {
             printf("Invalid card! Try again.\n");
             revealed[x1][y1] = 0;
             continue;
         }
+
+        // Mark the second card as revealed
         revealed[x2][y2] = 1;
         printBoard(board, revealed);
 
+        // Check if the two revealed cards match
+        // If they match, increment the pairs found counter
         if (board[x1][y1] == board[x2][y2]) {
             printf("Match found!\n");
             pairsFound++;
-        } else {
+        } 
+        // If they do not match, reset the revealed state of both cards
+        else {
             printf("No match. Try again!\n");
             revealed[x1][y1] = 0;
             revealed[x2][y2] = 0;
@@ -95,4 +133,3 @@ int main() {
     return 0;
 }
 // Memory Game in C
-// This program implements a simple memory game where players match pairs of cards. 
