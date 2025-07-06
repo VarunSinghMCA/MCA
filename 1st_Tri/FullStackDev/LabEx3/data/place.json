@@ -1,0 +1,5 @@
+[
+  {"name":"Pizza Palace","cuisine":"Italian","image":"images/r1.svg"},
+  {"name":"Sushi Central","cuisine":"Japanese","image":"images/r2.svg"},
+  {"name":"Curry House","cuisine":"Indian","image":"images/r3.svg"}
+]

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FoodFast Delivery</title>
+  <link rel="stylesheet" href="./style.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+</head>
+<body class="bg-gray-100 min-h-screen flex flex-col">
+
+  <!-- NAVIGATION BAR -->
+  <header class="bg-red-600 text-white">
+    <nav class="container mx-auto flex items-center justify-between px-4 py-3">
+      <div class="text-2xl font-bold flex items-center gap-2">
+        <i class="fas fa-utensils"></i> FoodFast
+      </div>
+      <div class="md:hidden">
+        <button id="menu-btn" class="text-3xl focus:outline-none">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      <ul id="nav-links" class="hidden md:flex gap-8 text-lg items-center">
+        <li><a href="#home" class="flex items-center gap-2 hover:text-yellow-300"><i class="fas fa-home"></i>Home</a></li>
+        <li><a href="#places" class="flex items-center gap-2 hover:text-yellow-300"><i class="fas fa-store"></i>Restaurants</a></li>
+        <li><a href="#gallery" class="flex items-center gap-2 hover:text-yellow-300"><i class="fas fa-camera"></i>Gallery</a></li>
+        <li><a href="#contact" class="flex items-center gap-2 hover:text-yellow-300"><i class="fas fa-phone"></i>Contact</a></li>
+      </ul>
+    </nav>
+    <ul id="mobile-menu" class="md:hidden hidden flex-col gap-4 bg-red-700 text-white px-4 py-2">
+      <li><a href="#home" class="flex items-center gap-2 py-2 hover:text-yellow-300"><i class="fas fa-home"></i>Home</a></li>
+      <li><a href="#places" class="flex items-center gap-2 py-2 hover:text-yellow-300"><i class="fas fa-store"></i>Restaurants</a></li>
+      <li><a href="#gallery" class="flex items-center gap-2 py-2 hover:text-yellow-300"><i class="fas fa-camera"></i>Gallery</a></li>
+      <li><a href="#contact" class="flex items-center gap-2 py-2 hover:text-yellow-300"><i class="fas fa-phone"></i>Contact</a></li>
+    </ul>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="relative h-[60vh] flex items-center justify-center overflow-hidden">
+  <!-- Background Video -->
+  <video autoplay loop muted playsinline class="absolute inset-0 w-full h-full object-cover z-0">
+    <source src="./video/glitters.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Overlay -->
+  <div class="absolute inset-0 bg-black bg-opacity-50 z-10"></div>
+
+  <!-- Foreground Content -->
+  <div class="relative z-20 text-center text-white">
+    <h1 class="text-4xl md:text-6xl font-bold mb-4 drop-shadow-lg">Crave. Order. Delivered.</h1>
+    <p class="mb-6 text-lg md:text-2xl">Your favorite meals, at your doorstep.</p>
+    <a href="#places" class="inline-block bg-yellow-400 text-gray-900 font-semibold px-8 py-3 rounded-full shadow-lg hover:bg-yellow-300 transition">
+      Order Now
+    </a>
+  </div>
+</section>
+
+
+  <!-- VIDEO WITH SUBTITLES -->
+  <section class="container mx-auto my-8 px-4 flex flex-col md:flex-row gap-8 items-center">
+    <div class="flex-1">
+      <video controls width="100%" height="160" class="object-contain h-[360px] width-auto" poster="images/thumbnail.svg">
+        <source src="./video/promo.mp4" type="video/mp4" />
+        <!-- <track src="video/subtitles.vtt" kind="subtitles" srclang="en" label="English" default /> -->
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <div class="flex-1">
+      <h2 class="text-2xl font-bold mb-2 flex items-center gap-2"><i class="fas fa-video"></i> Enjoy FoodFast Works at your doorstep</h2>
+      <p class="text-gray-700">Experience the convenience of ordering delicious meals with FoodFast — fast, easy, and right to your doorstep in just a few taps.</p>
+    </div>
+  </section>
+
+  <!-- AUDIO ELEMENT -->
+  <section class="container mx-auto px-4 mb-8 flex flex-col md:flex-row gap-8 items-center">
+    <div class="flex-1 p-4">
+      <h2 class="text-2xl font-bold mb-2 flex items-center gap-2"><i class="fas fa-music"></i> Enjoy Our Tune</h2>
+      <audio controls class="w-full">
+        <source src="audio/soft-piano-music.mp3" type="audio/mp3" class="hover:bg-[#00000040] "/>
+        Your browser does not support the audio element.
+      </audio>
+      <p class="text-gray-700 mt-2">Music while browsing—no autoplay, no distractions.</p>
+    </div>
+    <div class="flex-1 hidden md:block p-12">
+      <img src="images/music.svg" alt="Delicious Food" class="rounded-lg h-full w-full shadow-lg"/>
+    </div>
+  </section>
+
+  <!-- FETCH API SECTION -->
+  <section id="places" class="container mx-auto px-4 mb-8">
+    <h2 class="text-3xl font-bold mb-4 flex items-center gap-2"><i class="fas fa-store"></i> Popular Restaurants</h2>
+    <div id="places-list" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <!-- Fetched restaurants will appear here -->
+    </div>
+  </section>
+
+  <!-- GALLERY SECTION -->
+  <section id="gallery" class="container mx-auto px-4 mb-8">
+    <h2 class="text-3xl font-bold mb-4 flex items-center gap-2"><i class="fas fa-camera"></i> Gallery</h2>
+    <div class="relative max-w-xl mx-auto">
+      <!-- Left btn  -->
+      <button id="gallery-prev" class="absolute border -left-16 top-1/2 -translate-y-1/2 hover:scale-[1.1] bg-white hover:border-[#00000040] hover:bg-[#ffff0080] transition-all duration-200 rounded-full shadow px-4 py-12 z-10">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+       <!-- image  -->
+      <span class="flex justify-center items-center">
+        <img id="gallery-image" src="images/gallery1.jpg" alt="Food gallery" class="rounded-lg shadow-md object-fit w-fit h-[460px] transition-all duration-300"/>
+      </span>
+      <!-- right btn  -->
+      <button id="gallery-next" class="absolute -right-16 top-1/2 -translate-y-1/2 bg-white hover:scale-[1.1] bg-white border hover:border-[#00000040] hover:bg-[#ffff0080] transition-all duration-200  rounded-full shadow px-4 py-12 z-10">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+    </div>
+    <div class="flex justify-center mt-4 gap-2" id="gallery-dots">
+      <!-- Dots will be generated by JS -->
+    </div>
+    <div class="flex justify-center mt-8">
+      <svg width="64" height="64" fill="none" viewBox="0 0 24 24">
+        <circle cx="12" cy="10" r="3" fill="#10B981"/>
+        <path d="M12 2C7.03 2 3 6.03 3 11c0 5.25 7.5 11 9 11s9-5.75 9-11c0-4.97-4.03-9-9-9zm0 18.75C10.25 19.25 5 15.25 5 11c0-3.87 3.13-7 7-7s7 3.13 7 7c0 4.25-5.25 8.25-7 9.75z" fill="#10B981"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="container mx-auto px-4 mb-8">
+    <h2 class="text-3xl font-bold mb-4 flex items-center gap-2"><i class="fas fa-phone"></i> Contact Us</h2>
+    <form class="bg-white rounded-lg shadow-md p-6 max-w-lg mx-auto flex flex-col gap-4">
+      <input type="text" placeholder="Your Name" class="border border-gray-300 rounded px-4 py-2" required>
+      <input type="email" placeholder="Your Email" class="border border-gray-300 rounded px-4 py-2" required>
+      <textarea placeholder="Your Message" class="border border-gray-300 rounded px-4 py-2" required></textarea>
+      <button type="submit" class="bg-yellow-400 text-gray-900 font-semibold px-6 py-2 rounded hover:bg-yellow-300 transition">Send</button>
+    </form>
+  </section>
+
+  <!-- FOOTER WITH SVG -->
+  <footer class="bg-gray-800 text-white py-6 mt-auto">
+    <div class="container mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+      <span>&copy; 2025 FoodFast Delivery</span>
+      <span class="flex items-center gap-2">
+        <svg width="32" height="32" fill="none" viewBox="0 0 24 24">
+          <circle cx="12" cy="12" r="10" fill="#F59E0B"/>
+          <path d="M12 6v6l4 2" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        Delivered with Love
+      </span>
+    </div>
+  </footer>
+
+  <!-- JS: Menu, Fetch API, Form -->
+  <script src="./script.js"></script>
+</body>
+</html>
