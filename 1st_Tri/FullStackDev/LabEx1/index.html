@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modern Web Technologies</title>
+    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1 class="oxanium-bold">Modern Web Technologies</h1>
+        <h1 class="oxanium-bold">Your Techie Blog Buddy</h1>
         <nav id="main-nav">
             <ul class="nav-links michroma-regular">
                 <li><a href="#home">Home</a></li>
@@ -38,15 +39,17 @@
             </div>
         </section>
 
-        <section id="location" class="content-section-location">
+        <section id="location" class="flex content-section-location">
             <h2 class="michroma-bold mb-less">Your Location</h2>
             <div id="location-data">Fetching location...</div>
             <button id="get-location">Get My Location</button>
-            <iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=76.62963867187501%2C12.518368703890955%2C78.39569091796876%2C13.483118726287971&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?#map=10/13.0012/77.5127">View Larger Map</a></small>
+            <span id="map-span">
+                <iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=77.60097384452821%2C12.930231532229065%2C77.61101603507997%2C12.937770762317378&amp;layer=mapnik&amp;marker=12.934001175751769%2C77.60599493980408" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=12.934001&amp;mlon=77.605995#map=17/12.934001/77.605995">View Larger Map</a></small>        
+            </span>
         </section>
 
         <section id="feedback">
-            <h2 class="michroma-bold mb">Feedback Form</h2>
+            <h2 class="michroma-bold mb">Feedback</h2>
             <form id="feedback-form">
                 <label for="name">Name:</label>
                 <input type="text" id="name" required>
@@ -63,7 +66,7 @@
     <footer>
         <p>Varun Singh • 2547254</p>
         <p>25 June 2025</p>
-        <p>&copy; 2025 Modern Web Technologies</p>
+        <p>&copy; 2025 Techie Blog Buddy</p>
     </footer>
 
     <script src="script.js"></script>

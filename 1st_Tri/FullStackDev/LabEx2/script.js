@@ -9,7 +9,7 @@ document.getElementById('menu-btn').addEventListener('click', () => {
         const res = await fetch('./data/place.json');
         const data = await res.json();
         container.innerHTML = data.map(r => `
-          <div class="bg-white rounded-lg shadow-md p-4 flex flex-col items-center">
+          <div class="bg-white rounded-lg shadow-md p-4 flex flex-col items-center hover:scale-[1.025] transition-all duration-200 hover:bg-yellow-400">
             <img src="${r.image}" alt="${r.name}" class="rounded-full w-auto h-[240px] mb-2"/>
             <h3 class="text-xl font-semibold mb-1">${r.name}</h3>
             <p class="text-gray-600">${r.cuisine}</p>

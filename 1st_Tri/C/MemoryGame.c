@@ -28,6 +28,8 @@ void shuffle(char board[SIZE][SIZE]) {
         for (int j = 0; j < SIZE; j++) {
             int row = rand() % SIZE;
             int col = rand() % SIZE;
+            // Swap the current card with a randomly chosen card
+            // This creates a random shuffle of the board
             char temp = board[i][j];
             board[i][j] = board[row][col];
             board[row][col] = temp;
@@ -59,7 +61,6 @@ void printBoard(char board[SIZE][SIZE], int revealed[SIZE][SIZE]) {
     }
 }
 
-
 // Main function to run the memory game
 // Players will input the coordinates of the cards they want to reveal
 int main() {
@@ -77,38 +78,65 @@ int main() {
     printf("Memory Game (Matching Pairs)\n");
     printf("Find all matching pairs of cards!\n");
 
+    // problem --> Input Validation from user 
+
     while (pairsFound < SIZE*SIZE/2) {
         printBoard(board, revealed);
 
         // Input for the first card
-        // Prompt the user to enter the coordinates of the first card
-        printf("Enter first card (row and column): ");
-        scanf("%d %d", &x1, &y1);
-        // Adjust for 0-based indexing
-        x1--; y1--;
+        while (1) {
+            printf("Enter first card row: ");
+            if (scanf("%d", &x1) != 1) {
+                printf("Invalid input! Please enter an integer.\n");
+                while (getchar() != '\n'); 
+                continue;
+            }
+            printf("Enter first card column: ");
+            if (scanf("%d", &y1) != 1) {
+                printf("Invalid input! Please enter an integer.\n");
+                while (getchar() != '\n');
+                continue;
+            }
+            // Adjust for 0-based indexing
+            x1--; y1--;
 
-        // Validate input for first card
-        // Check if the input is within bounds and not already revealed
-        if (x1 < 0 || x1 >= SIZE || y1 < 0 || y1 >= SIZE || revealed[x1][y1]) {
-            printf("Invalid card! Try again.\n");
-            continue;
+            // Validate input for first card
+            // Check if the input is within bounds and not already revealed
+            if (x1 < 0 || x1 >= SIZE || y1 < 0 || y1 >= SIZE || revealed[x1][y1]) {
+                printf("Invalid card! Try again.\n");
+                continue;
+            }
+            break;
         }
 
         // Mark the first card as revealed then proceed to the second card
         revealed[x1][y1] = 1;
         printBoard(board, revealed);
-        // Input for the second card
-        printf("Enter second card (row and column): ");
-        scanf("%d %d", &x2, &y2);
-        // Adjust for 0-based indexing
-        x2--; y2--;
 
-        // Validate input for second card
-        // Check if the input is within bounds, not already revealed, and not the same as the first card
-        if (x2 < 0 || x2 >= SIZE || y2 < 0 || y2 >= SIZE || revealed[x2][y2] || (x1 == x2 && y1 == y2)) {
-            printf("Invalid card! Try again.\n");
-            revealed[x1][y1] = 0;
-            continue;
+        // Input for the second card
+        while (1) {
+            printf("Enter second card row: ");
+            if (scanf("%d", &x2) != 1) {
+                printf("Invalid input! Please enter an integer.\n");
+                while (getchar() != '\n');
+                continue;
+            }
+            printf("Enter second card column: ");
+            if (scanf("%d", &y2) != 1) {
+                printf("Invalid input! Please enter an integer.\n");
+                while (getchar() != '\n');
+                continue;
+            }
+            // Adjust for 0-based indexing
+            x2--; y2--;
+
+            // Validate input for second card
+            // Check if the input is within bounds, not already revealed, and not the same as the first card
+            if (x2 < 0 || x2 >= SIZE || y2 < 0 || y2 >= SIZE || revealed[x2][y2] || (x1 == x2 && y1 == y2)) {
+                printf("Invalid card! Try again.\n");
+                continue;
+            }
+            break;
         }
 
         // Mark the second card as revealed

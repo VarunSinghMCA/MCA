@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Welcome to demo usage of <strong>navigator.geolocation</strong>
+        </h1>
+    </header>
+
+    <main>
+        <h2>
+
+        </h2>
+        <ul>
+            <li>Timestamp:<span id="ts"></span></li>
+            <li>Latitude: <span id="lat"></span></li>
+            <li>Longitude:<span id="lon"></span></li>
+        </ul>
+        <p id="error"></p>
+    </main>
+
+    <!-- ---------------------------------------    Script    ------------------------------------------ -->
+    <script>
+        'use strict'
+        window.onload = () => {
+            const location = navigator.geolocation
+            if(!location){
+                console.error("unable to fetch location")
+                return;
+            }
+            const crr_postion = location.getCurrentPosition();
+        };
+        
+        const getPos = (position) => {
+            const ts = document.getElementById('ts');
+            const lat = document.getElementById('lat');
+            const lon = document.getElementById('lon');
+            const error = document.getElementById('error')
+            ts.textContent = new Date(position.timestamp).toLocaleString();
+            lat.textContent = position.corrds.latitude
+            lon.textContent = position.corrds.longitude
+            error.textContent = ""
+        };
+
+        function showErr(err){
+            const errDiv = getElementById('error')
+            // switch err:
+        }
+
+
+
+
+    </script>
+    <!-- ------------------------------------------------------------------------------------------------ -->
+</body>
+</html>
