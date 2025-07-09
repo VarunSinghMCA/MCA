@@ -39,7 +39,7 @@
               Afternoon
             </label>
             <label class="flex items-center px-3 py-2 border rounded cursor-pointer transition custom-label">
-              <input type="radio" name="time" value="Evening" class="mr-2 accent-blue-600">
+              <input type="radio" name="time" value="Evening" class="mr-2 hidden accent-blue-600">
               Evening
             </label>
           </div>
@@ -79,6 +79,27 @@
         `;
         output.classList.remove('hidden');
       });
+
+      let display = true;
+      const radios = document.querySelectorAll(input[type='radio']);
+
+      radios.map(radio=> {
+        if(radio.checked === true){
+            
+        }
+      })
+      // Add a change event listener to each radio button
+      radios.forEach(radio => {
+        radio.addEventListener('change', function() {
+          if (this.checked) {
+            display = !display;
+          }
+        });
+      });
+
+      if(  ){
+
+      }
     </script>
 </body>
 </html>
