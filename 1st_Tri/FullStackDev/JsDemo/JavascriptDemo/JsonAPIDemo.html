@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="mx-auto">
+    <nav class="bg-yellow-100 px-6 py-6 font-bold font-mono text-4xl">Blog Posts</nav>
+    <form method="POST" id="blog">
+    <fieldset class="border border-gray-300 p-5 bg-pink-50 flex flex-col">
+        <legend class="font-bold text-xl">Add a New Post</legend>
+                   
+
+        <label for="title" class="pb-2">Enter the Title of the Blog</label>
+        <input type="text" name="title" id="title"><br /><br />
+        
+        <label for="description" class="pb-2">Enter the Description of the Blog</label>
+        <textarea name="description" id="description"></textarea>
+        <br /><br />
+
+        <button type="submit" class="border border-pink-500 px-1 py-1 w-24" id="addPost"> Add a Post</button>
+        
+    </fieldset>
+    </form>
+    <div id="posts_container"></div>
+    <script src="JsonAPIDemo.js"></script>
+</body>
+</html>

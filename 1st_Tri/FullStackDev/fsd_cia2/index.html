@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script></script>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <title>Document</title>
+</head>
+<body class="m-0 p-0 bg-gray-100 min-h-screen h-fit relative">
+    <!--
+        You are developing a web app named CoffeeHub for
+        coffee lovers to explore popular hot coffee drinks. The app should
+        dynamically fetch coffee data, display their images and details, allow
+        users to search by name, provide a feedback form, and store user
+        preferences using Web Storage. It should also retrieve and display
+        user location and browser information. (Mobile First Design)
+        Submit the code on GitHub and GCR 
+    -->
+    <nav class="fixed top-0 w-full z-10 bg-gray-800 flex flex-col md:flex-row items-center justify-between px-4">
+        <div class="text-white p-4">
+            <h1 class="text-2xl font-bold">Coffee Hub</h1>
+        </div>
+
+        <ul class="flex border gap-6 h-full">
+            <li><a href="#home" class="text-cyan-600 hover:underline">Home</a></li>
+            <li><a href="#coffeeList" class="text-cyan-600 hover:underline">Menu</a></li>
+            <li><a href="#form" class="text-cyan-600 hover:underline">form</a></li>
+            <!-- <li><a href="#" class="text-blue-600 hover:underline">About Us</a></li> -->
+        </ul>
+    </nav>
+    
+    <main class="h-fit flex flex-col items-center justify-center mt-20">
+        <section class="w-[90%] rounded-lg p-8">
+            <div id="header"></div>
+            <!-- <h1 class="text-3xl font-bold mb-4 text-center">Welcome to Coffee Hub</h1>
+            <h2 class="text-2xl font-bold mb-4 text-blue-700">Coffee Hub</h2>
+            <p class="text-gray-600 mb-4">Explore our popular hot coffee drinks.</p> -->
+            
+
+            <!-- Video  -->
+            <section class="container mx-auto my-8 px-4 flex flex-col md:flex-row gap-8 items-center" id="home">
+                <div class="flex-1">
+                  <video controls width="100%" height="160" class="object-contain h-[360px] width-auto" poster="images/thumbnail.svg">
+                    <source src="./assets/Set2_Video.mp4" type="video/mp4" />
+                    <track src="./video/promo-subtitles.vtt" kind="subtitles" srclang="en" label="English" default />
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <div class="flex-1">
+                  <h2 class="text-2xl font-bold mb-2 flex items-center gap-2"><i class="fas fa-video"></i> Enjoy coffee</h2>
+                  <p class="text-gray-700">Experience the love of coffee from our CoffeeHub.</p>
+                </div>
+            </section>
+            <!-- audio  -->
+            <section class="container mx-auto px-4 mb-8 flex flex-col md:flex-row gap-8 items-center">
+                <div class="flex-1 p-4">
+                  <h2 class="text-2xl font-bold mb-2 flex items-center gap-2"><i class="fas fa-music"></i> Listen to this Audio</h2>
+                  <audio controls class="w-full">
+                    <source src="./assets/Set2_Video.mp4" type="audio/mp3" class="hover:bg-[#00000040] "/>
+                    Your browser does not support the audio element.
+                  </audio>
+                </div>
+            </section>
+
+
+            <div>
+                <p id="location">
+                    <!-- User location will be displayed here. -->
+                </p>
+            </div>
+            
+            <div class="mt-8 ">
+                <h3 class="text-xl font-semibold mb-4">Search Coffee</h3>
+                <div class="relative flex items-center gap-4 h-fit">
+                    <span class="h-[45px] w-[45px] flex items-center justify-center absolute"><i class="fas fa-search text-black-500"></i> </span>
+                    <input type="text" id="search-input" placeholder="Search by name..." class="w-full px-4 py-2 pl-12 border rounded-xl focus:outline-none focus:ring-1 focus:ring-blue-400" />
+                    <button id="search-button" class="bg-blue-600 absolute z-4 right-1 text-white px-4 py-1.5 rounded-xl hover:bg-blue-800 transition">Search</button>
+                </div>
+            </div>
+
+            <div id="coffeeList" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-10 ">
+                <!-- Coffee items will be dynamically inserted here -->
+            </div>
+            
+            
+
+
+
+             <!-- Form  -->
+            
+            <div class="mt-8" id="form">
+                <h3 class="text-xl font-semibold mb-4">Form</h3>
+                <form id="feedbackForm" class="space-y-4">
+                    <input type="text" id="name" placeholder="Your Name" required class="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-400">
+                    <input type="text" id="coffee" placeholder="Your favorite coffee" required class="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-400">
+                    <!--<textarea id="feedback" placeholder="Your Feedback" required class="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-400"></textarea> -->
+                    <button type="submit" class="w-full bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-500 transition">Submit Feedback</button>
+                </form>
+            </div>
+
+        </section>
+
+    </main>
+    
+    <!-- <footer class="absolute bottom-0 w-full">
+        <div class="bg-gray-800 text-white text-center p-4">
+            <p>&copy; 2025 CoffeeHub. All rights reserved.</p>
+        </div>
+    </footer> -->
+    <script src="script.js"></script>
+</body>
+</html>
