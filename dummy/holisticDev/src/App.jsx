@@ -14,24 +14,7 @@ function App() {
 
   return (
     <>
-      <form onSubmit={(e) => {
-        e.preventDefault();
-        console.log('Form submitted with value:', value);
-      }}>
-        <h1>Hello {name}!</h1>
-        <input
-          type="text"
-          value={value}
-          onChange={(e) => setValue(e.target.value)}
-          placeholder="Type something..."
-        />
-        <p>You typed: {value}</p>
-
-        <button type="submit">Submit</button>
-        
-
-      </form>
-
+     
     </>
   )
 }
