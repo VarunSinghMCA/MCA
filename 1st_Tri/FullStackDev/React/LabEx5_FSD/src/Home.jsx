@@ -1,12 +1,15 @@
 import { useNavigate } from 'react-router-dom';
-import { useEffect, useState } from 'react';
+// import { useEffect, useState } from 'react';
 import Explore from './components/Explore';
+import MenuHighlight from './components/MenuHighlight'
 
 function Home() {
   return (
     <div className='h-fit w-full m-0 p-0'>
       <Hero/>
       <Explore/>
+      <MenuHighlight/>
+
     </div>
   )
 }

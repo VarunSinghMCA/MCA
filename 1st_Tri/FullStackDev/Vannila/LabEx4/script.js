@@ -12,7 +12,7 @@ if (sessionStorage.getItem('visited')) {
   sessionStorage.setItem('visited', 'true');
 }
 
-// Real-time character count
+// character count
 feedbackTextarea.addEventListener('input', () => {
   const maxLen = 250;
   const currentLen = feedbackTextarea.value.length;
@@ -22,7 +22,7 @@ feedbackTextarea.addEventListener('input', () => {
 // Load feedbacks on page load
 window.addEventListener('DOMContentLoaded', loadFeedbacks);
 
-// Handle form submission
+// submission
 feedbackForm.addEventListener('submit', function (event) {
   event.preventDefault();
 
@@ -53,14 +53,14 @@ feedbackForm.addEventListener('submit', function (event) {
   alert(`Thank you for your feedback, ${name}!`);
 });
 
-// Save to localStorage
+// localStorage
 function saveFeedback(feedback) {
   const feedbacks = JSON.parse(localStorage.getItem('feedbacks')) || [];
   feedbacks.push(feedback);
   localStorage.setItem('feedbacks', JSON.stringify(feedbacks));
 }
 
-// Load and display feedbacks
+// display feedbacks
 function loadFeedbacks() {
   feedbackContainer.innerHTML = '';
   const feedbacks = JSON.parse(localStorage.getItem('feedbacks')) || [];
@@ -86,7 +86,7 @@ function loadFeedbacks() {
   });
 }
 
-// Clear all feedbacks
+// Clear feedbacks
 clearBtn.addEventListener('click', () => {
   if (confirm('Are you sure you want to delete all feedbacks?')) {
     localStorage.removeItem('feedbacks');

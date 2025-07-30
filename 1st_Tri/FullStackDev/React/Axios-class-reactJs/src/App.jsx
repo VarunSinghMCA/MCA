@@ -8,19 +8,20 @@ export default function App() {
   const [searchData, setSearchData] = useState('nature');
   const [loading, setLoading] = useState(true);
 
-  const UNSPLASH_ACCESS_KEY = '4rI8_Q227Cv012WZ2dLSU1jy3cyrJS9Zlmp9OuIiES8'; // 🔁 Replace with your key
+  const UNSPLASH_ACCESS_KEY = import.meta.env.VITE_UNSPLASH_ACCESS_KEY;
+  console.log(UNSPLASH_ACCESS_KEY);
 
   useEffect(() => {
     const fetchData = async () => {
       setLoading(true);
       try {
-        const res = await axios.get('http://api.unsplash.com/search/photos', {
+        const res = await axios.get('https://api.unsplash.com/search/photos', {
           headers: {
             Authorization: `Client-ID ${UNSPLASH_ACCESS_KEY}`
           },
           params: {
             query: searchData,
-            // per_page: 12
+            per_page: 15
           }
         });
         setData(res.data.results);
@@ -34,44 +35,57 @@ export default function App() {
   }, [searchData]);
 
   return (
-    <div className='h-[100dvh] w-[100dvw] bg-gray-100 dark:bg-gray-900 text-black dark:text-white'>
-      {loading ? (
-        <div className='flex h-full items-center justify-center'>
-          <h1 className='text-2xl font-bold'>Loading...</h1>
-        </div>
-      ) : (
-        <div>
-          <div className='flex items-center justify-center flex-col gap-4 mt-4'>
-            <input 
-              type="text" 
-              value={inputData} 
-              onChange={e => setInputData(e.target.value)}
-              placeholder='Search Unsplash...'
-              className='border border-gray-300 rounded-md px-4 py-2 w-1/3'
-            />
-            <button
-              onClick={() => {
-                if (inputData.trim()) {
-                  setSearchData(inputData);
-                  setInputData('');
-                }
-              }}
-              className='bg-blue-500 text-white px-4 py-2 rounded-md'
-            >
-              Search
-            </button>
+    <div className="min-h-[100dvh] w-full bg-gray-100 dark:bg-gray-900 text-black dark:text-white">
+      <div className="h-auto w-full flex flex-col items-center justify-center gap-4 pt-8">
+        
+        <label htmlFor="serach" className='h-[102px] w-[50%] flex justify-center flex-col '>
+          <input
+          type="text"
+          id='serach'
+          value={inputData}
+          onChange={(e) => setInputData(e.target.value)}
+          placeholder="Search Unsplash..."
+          className="border border-gray-300 rounded-full w-full h-[50px] px-6"
+        />
+        {
+          searchData && 
+          (
+            <p className='text-gray-400 px-4'>Serched Data: {searchData}</p>
+          )
+        }
+        
+        </label>
+        
+        <button
+          onClick={() => {
+            if (inputData.trim()) {
+              setSearchData(inputData);
+              setInputData('');
+            }
+          }}
+          className="bg-blue-500 text-white px-4 py-2 rounded-md cursor-pointer"
+        >
+          Search
+        </button>
+      </div>
+
+      <div className="p-6">
+        {loading ? (
+          <div className="flex h-64 items-center justify-center">
+            <h1 className="text-2xl font-bold">Loading...</h1>
           </div>
-          <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-4'>
+        ) : (
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             {data.map((item) => (
-              <ImageBox 
-                key={item.id} 
-                src={item.urls.small} 
-                alt={item.alt_description || 'Unsplash Image'} 
+              <ImageBox
+                key={item.id}
+                src={item.urls.small}
+                alt={item.alt_description || 'Unsplash Image'}
               />
             ))}
           </div>
-        </div>
-      )}
+        )}
+      </div>
     </div>
   );
 }
@@ -87,3 +101,16 @@ function ImageBox({ src, alt }) {
     </div>
   );
 }
+
+// function Card({ title, image, tag, description }) {
+//   return (
+//     <div className="bg-[#1e2738] rounded-xl shadow-lg overflow-hidden flex flex-col transition-transform hover:scale-[1.02]">
+//       <img src={image} alt={title} className="h-48 w-full object-cover" />
+//       <div className="p-4 flex flex-col gap-2">
+//         <h2 className="text-xl font-semibold">{title}</h2>
+//         <span className="text-sm text-[#f9982f] font-medium">{tag}</span>
+//         <p className="text-sm text-gray-300">{description}</p>
+//       </div>
+//     </div>
+//   );
+// }

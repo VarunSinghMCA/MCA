@@ -61,7 +61,7 @@ function Layout() {
   return (
     <>
       <div className='h-dvh w-dvw realtive m-0 p-0 bg-black bg-gradient-to-r from-[#254252] to-[#1E2E3E] '>
-        <div className='sticky top-6 z-50 w-full flex items-center justify-center'>
+        <div className='sticky md:top-6 top-0 z-50 w-full flex items-center justify-center'>
           <Navbar />
         </div>
         {/* Main content area */}
