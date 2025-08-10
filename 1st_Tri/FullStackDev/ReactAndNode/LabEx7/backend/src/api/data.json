@@ -1,0 +1,35 @@
+{
+  "restaurants": [
+    {
+      "name": "Spicy House",
+      "item": "Biryani",
+      "price": 250,
+      "category": "Indian"
+    },
+    {
+      "name": "Pizza Planet",
+      "item": "Pepperoni Pizza",
+      "price": 450,
+      "category": "Italian"
+    },
+    {
+      "name": "Sushi World",
+      "item": "California Roll",
+      "price": 350,
+      "category": "Japanese"
+    },
+    {
+      "name": "Curry Point",
+      "item": "Paneer Butter Masala",
+      "price": 300,
+      "category": "Indian"
+    },
+    {
+      "name": "Taco Time",
+      "item": "Beef Taco",
+      "price": 200,
+      "category": "Mexican"
+    }
+  ]
+}
+    
