@@ -62,11 +62,7 @@ const FAQ = () => {
                   openIndex === index ? "rotate-180" : ""
                 }`}
               >
-                
-                
                   <img src="/arrow-down-white.svg" alt="⇩" className="w-full h-full"/>
-                
-
               </span>
             </button>
             <div
