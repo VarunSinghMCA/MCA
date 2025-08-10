@@ -3,31 +3,31 @@ import { readFile } from "fs/promises";
 import { fileURLToPath, URL } from "url";
 import { dirname, join } from "path";
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
+const filename = fileURLToPath(import.meta.url);
+const dirname = dirname(filename);
 
 const PORT = 3000;
 
 http.createServer(async (req, res) => {
-    // ✅ CORS Headers
+    // CORS Headers
     res.setHeader("Access-Control-Allow-Origin", "*");
     res.setHeader("Access-Control-Allow-Methods", "GET, OPTIONS");
     res.setHeader("Access-Control-Allow-Headers", "Content-Type");
 
-    // ✅ Handle preflight request
-    if (req.method === "OPTIONS") {
-        res.writeHead(204);
-        res.end();
-        return;
-    }
+    // res.status(204) part for my options if i want put post del logic
+    // if (req.method === "OPTIONS") {
+    //     res.writeHead(204);
+    //     res.end();
+    //     return;
+    // }
 
-    // ✅ Routing
+    // Routes
     const parsedUrl = new URL(req.url, `http://${req.headers.host}`);
     const pathname = parsedUrl.pathname;
     const searchParams = parsedUrl.searchParams;
 
     try {
-        const jsonPath = join(__dirname, "./api/data.json");
+        const jsonPath = join(dirname, "./api/data.json");
         const jsonData = await readFile(jsonPath, "utf-8");
         const { restaurants } = JSON.parse(jsonData);
 
@@ -36,13 +36,13 @@ http.createServer(async (req, res) => {
             res.end(JSON.stringify(restaurants));
 
         } else if (pathname === "/api/items") {
-            // Return only item names
+            // Return item names
             const items = restaurants.map(r => r.item);
             res.writeHead(200, { "Content-Type": "application/json" });
             res.end(JSON.stringify(items));
 
         } else if (pathname === "/api/filter") {
-            // Filter using query params
+            // Filter query
             let filtered = restaurants;
 
             if (searchParams.has("item")) {
