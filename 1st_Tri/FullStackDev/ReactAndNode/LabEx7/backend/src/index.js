@@ -4,7 +4,7 @@ import { fileURLToPath, URL } from "url";
 import { dirname, join } from "path";
 
 const filename = fileURLToPath(import.meta.url);
-const dirname = dirname(filename);
+const sdirname = dirname(filename);
 
 const PORT = 3000;
 
@@ -27,7 +27,7 @@ http.createServer(async (req, res) => {
     const searchParams = parsedUrl.searchParams;
 
     try {
-        const jsonPath = join(dirname, "./api/data.json");
+        const jsonPath = join(sdirname, "./api/data.json");
         const jsonData = await readFile(jsonPath, "utf-8");
         const { restaurants } = JSON.parse(jsonData);
 
