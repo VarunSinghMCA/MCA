@@ -41,20 +41,20 @@ class Validator {
 
     // Method: Validate password
     public String validatePassword(String password) {
-        //===================================================
-        // String holding special characters not allowed at start
-        //===================================================
+        //===============================================================
+        // String holding special characters not allowed at start       |
+        //===============================================================
         String specialChars = "@!#$%";
 
-        //===================================================
-        // Check length of password using length()
-        //===================================================
+        //===============================================================
+        // Check length of password using length()                      |
+        //===============================================================
         if (password.length() < 4 || password.length() > 12) {
             return "Password must be between 4 and 12 characters.";
         }
 
         //===================================================
-        // charAt(0) to get first character
+        // charAt(0) to get first character of password     |
         //===================================================
         char firstChar = password.charAt(0);
 
@@ -76,22 +76,22 @@ class Validator {
 public class GamingPlatformSignup {
     public static void main(String[] args) throws IOException {
         //===================================================
-        // Array of existing usernames
+        // Array of existing usernames                      |
         //===================================================
         String[] existingUsernames = {"playerOne", "gamerX", "ninja123", "dragonSlayer"};
 
         //===================================================
-        // New Validator object
+        // New Validator object                             |
         //===================================================
         Validator validator = new Validator(existingUsernames);
         
-        //===================================================
-        // BufferedReader for efficient reading of characters, arrays, and lines.
-        //===================================================
+        //===================================================================================
+        // BufferedReader for efficient reading of characters, arrays, and lines.           |
+        //===================================================================================
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         //===================================================
-        // LOOP until user exits the program manually
+        // LOOP until user exits the program manually       |
         //===================================================
         while (true) {
             System.out.println("\n+------------------------------------------+");
@@ -100,13 +100,13 @@ public class GamingPlatformSignup {
             System.out.println("Type 'exit' as username to stop the program.");
 
             //===================================================
-            // User input for username
+            // User input for username                          | 
             //===================================================
             System.out.print("Enter Username: ");
             String username = br.readLine();
 
             //===================================================
-            // equalIgnoreCase() for Exit condition
+            // equalIgnoreCase() for Exit condition             |
             //===================================================
             if (username.equalsIgnoreCase("exit")) {
                 System.out.println("Program stopped by user.");
@@ -114,13 +114,13 @@ public class GamingPlatformSignup {
             }
 
             //===================================================
-            // User input for password
+            // User input for password                          |
             //===================================================
             System.out.print("Enter Password: ");
             String password = br.readLine();
 
             //===================================================
-            // Validate username using Validator class
+            // Validate username using Validator class          |
             //===================================================
             if (validator.isUsernameTaken(username)) {
                 System.out.println("Bruh: Username already taken. Please try a different one.");
@@ -128,38 +128,38 @@ public class GamingPlatformSignup {
             }
 
             //===================================================
-            // Validate password using Validator class
+            // Validate password using Validator class          |
             //===================================================
             String passwordCheck = validator.validatePassword(password);
 
-            //===================================================
-            // equals() to compare strings (check if password valid)
-            //===================================================
+            //===================================================================
+            // equals() to compare strings (check if password valid)            | 
+            //===================================================================
             if (!passwordCheck.equals("VALID")) {
                 System.out.println("Bruh: " + passwordCheck);
                 continue;
             }
 
             //===================================================
-            // If both valid, create User object
+            // If both valid, create User object                |
             //===================================================
             User newUser = new User(username, password);
 
             //===================================================
-            // Using StringBuffer to show key:value pair data
+            // Using StringBuffer to show key:value pair data   |
             //===================================================
             StringBuffer userData = new StringBuffer();
             //===================================================
-            // append() to add strings to StringBuffer
+            // append() to add strings to StringBuffer          |
             //===================================================
             userData.append("username=").append(newUser.username);
             userData.append(", ");
             userData.append("password=").append(newUser.password);
 
             System.out.println("OogaBooga: Registration Successful!");
-            //===================================================
-            // toString() to convert StringBuffer to String for output
-            //===================================================
+            //===================================================================
+            // toString() to convert StringBuffer to String for output          |
+            //===================================================================
             System.out.println("Stored Data: " + userData.toString());
         }
     }

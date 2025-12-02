@@ -1,0 +1,16 @@
+FIVE_STAR
+Diluc
+Keqing
+Qiqi
+Mona
+
+FOUR_STAR
+Bennett
+Fischl
+Sucrose
+Razor
+
+THREE_STAR
+Slingshot
+Cool Steel
+Debate Club

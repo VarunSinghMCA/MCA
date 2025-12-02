@@ -1,0 +1,103 @@
+class SharedWallet {
+    private int primogems = 0;
+
+    public synchronized void addPrimogems(int amount) {
+        primogems += amount;
+        System.out.println("Traveler collected " + amount + " primogems. Total: " + primogems);
+        notify(); // Notify waiting threads (like Paimon)
+    }
+
+    public synchronized void spendPrimogems(int amount) throws InterruptedException {
+        while (primogems < amount) {
+            System.out.println("Paimon wants to buy wish but not enough primogems... waiting.");
+            wait(); // Wait until primogems are available
+        }
+        primogems -= amount;
+        System.out.println("Paimon spent " + amount + " primogems for a wish! Remaining: " + primogems);
+    }
+}
+
+// Thread created by extending Thread class
+class Traveler extends Thread {
+    SharedWallet wallet;
+    private volatile boolean paused = false; // Instead of suspend()
+
+    Traveler(SharedWallet wallet) {
+        this.wallet = wallet;
+    }
+
+    public void pauseThread() {
+        paused = true;
+    }
+
+    public void resumeThread() {
+        paused = false;
+        synchronized (this) {
+            notify();
+        }
+    }
+
+    @Override
+    public void run() {
+        try {
+            for (int i = 0; i < 5; i++) {
+                synchronized (this) {
+                    while (paused) wait();
+                }
+                wallet.addPrimogems(20);
+                Thread.sleep(500); // Slow down to see the effect
+            }
+        } catch (InterruptedException e) {}
+    }
+}
+
+// Thread created using Runnable interface
+class Paimon implements Runnable {
+    SharedWallet wallet;
+
+    Paimon(SharedWallet wallet) {
+        this.wallet = wallet;
+    }
+
+    @Override
+    public void run() {
+        try {
+            wallet.spendPrimogems(50);
+        } catch (InterruptedException e) {}
+    }
+}
+
+// A simple endless animation to show concurrency
+class WorldAnimation extends Thread {
+    public void run() {
+        try {
+            for (int i = 0; i < 10; i++) {
+                System.out.println("The world of Teyvat is running...");
+                Thread.sleep(400);
+            }
+        } catch (InterruptedException e) {}
+    }
+}
+
+public class GenshinMultiThreadDemo {
+    public static void main(String[] args) throws Exception {
+        SharedWallet wallet = new SharedWallet();
+
+        Traveler traveler = new Traveler(wallet);
+        Thread paimon = new Thread(new Paimon(wallet));
+        WorldAnimation animation = new WorldAnimation();
+
+        traveler.start();
+        paimon.start();
+        animation.start();
+
+        // Pause traveler after some time
+        Thread.sleep(1200);
+        System.out.println("\n>>> Traveler is tired... Pausing collection.\n");
+        traveler.pauseThread();
+
+        Thread.sleep(1500);
+        System.out.println("\n>>> Traveler rested! Resuming collection.\n");
+        traveler.resumeThread();
+    }
+}
