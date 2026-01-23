@@ -1,0 +1,574 @@
+NAME,DEPARTMENT_NAME,TITLE,REGULAR,RETRO,OTHER,OVERTIME,INJURED,DETAIL,QUINN_EDUCATION,TOTAL GROSS,POSTAL
+"Hallahan,Timothy J",Traffic Division,Supv-Parking Meter Operations,"1,14,623.09",,,"1,25,523.80",,,,"2,40,146.89",1940
+"Hesford,Edward D.",Traffic Division,Supvising Traffic Engineer,"1,33,169.08",,,"94,803.60",,,,"2,27,972.68",2131
+"Aleman,Wilson",Traffic Division,Asst Supv Traffic Eng,"1,11,273.88","2,034.51",984.78,"84,396.91",,,,"1,98,690.08",2191
+"Bloom,David M",Finance,Chief Financial Officer(F),"1,94,429.06",,,,,,,"1,94,429.06",2132
+"Vilar,Alfredo J.",Traffic Division,Sr Traffic Engineer,"1,07,792.88","1,869.34","2,153.71","70,844.88",,,,"1,82,660.81",2155
+"Dimarzo,Dominic",Traffic Division,Traffic Signal Supv,"43,198.05",,,,"1,30,294.92",,,"1,73,492.97",2128
+"Smith,Joseph M",Traffic Division,Supv-Parking Enforcement,"1,16,182.87",,"4,393.42","52,403.89",,,,"1,72,980.18",2128
+"Gove,Nicholas S",Traffic Division,Deputy Chief,"1,66,461.50",,,,,,,"1,66,461.50",2129
+"Richards,Jay J.",Traffic Division,Asst Supv-Parking Enforcement,"90,583.12","1,626.31",300,"72,622.41",,,,"1,65,131.84",2122
+"D'Avolio,Kristen",Adult Education,Senior Director (BASAS 12B),"1,58,597.40",,"5,000.00",,,,,"1,63,597.40",2128
+"Hoey,Patrick E.",Traffic Division,Trans Pgm Plnr (red circled),"1,53,608.25",,"2,552.26","3,451.71",,,,"1,59,612.22",2136
+"Morgan,Devon G",Traffic Division,Asst Traffic Engineer,"98,521.84","1,589.13",300,"58,914.95",,,,"1,59,325.92",2136
+"Finn,Scott M",Auditing Department,City Auditor,"1,49,956.95",,"5,840.40","2,333.48",,,,"1,58,130.83",2122
+"McDonnell,Thomas K",Traffic Division,Prin Admin Asst,"1,14,623.11",,,"42,739.67",,,,"1,57,362.78",2127
+"Devine,Michael P",Traffic Division,Traffic Sign Supv,"1,14,622.88",,"4,036.44","38,526.08",,,,"1,57,185.40",2122
+"Esdaile,Avery William",Athletics,Senior Director (BASAS 12B),"1,53,401.56",,,,,,,"1,53,401.56",1960
+"Macrae,Yvonne",Finance,Director (NonAcad) D,"1,50,143.76",,"1,500.00",,,,,"1,51,643.76",2333
+"O'Keefe,Michael",Auditing Department,Division Director,"1,35,899.18",,"2,552.26","12,453.54",,,,"1,50,904.98",2135
+"Curcuru,Melissa",Adult Education,Teacher,"1,33,384.90",,"16,760.86",,,,,"1,50,145.76",1864
+"Cording,Amy S",Traffic Division,Traffic Engineering Director,"1,45,070.06",724.07,"2,742.70",,,,,"1,48,536.83",2127
+"Chan,Ada Lei",Adult Education,Student Dev Counselor (1),"1,41,739.37",,"6,742.03",,,,,"1,48,481.40",2494
+"Gupta,Vineet K",Traffic Division,Trans Prog Planner V(Transp),"1,46,679.28",,,,,,,"1,46,679.28",2116
+"Racanelli,James",Finance,Director (NonAcad) D,"1,45,479.62",,,,,,,"1,45,479.62",2474
+"Latham,Ellen C.",Adult Education,Teacher,"1,43,723.86",,"1,354.07",,,,,"1,45,077.93",1902
+"Imbaro,Veronica L",Auditing Department,Division Director,"1,35,899.20",,"1,370.93","5,831.14",,,,"1,43,101.27",2132
+"Beltre,Cynthia",Finance,Director (NonAcad) D,"1,42,536.72",,,,,,,"1,42,536.72",2119
+"Dawkins,Blair Elizabeth",Finance,Deputy Chief Financial Off (E),"1,41,921.13",,,,,,,"1,41,921.13",2121
+"McKenzie,Carl L.",Traffic Division,Supvising Traffic Engineer,"1,33,169.05",,"7,604.52",218.76,,,,"1,40,992.33",1701
+"Murray,Marie Ann",Auditing Department,Division Director,"1,35,899.20",,,"4,887.96",,,,"1,40,787.16",2122
+"Son,Yeon-Jeong",Adult Education,Instructional Coach,"1,37,708.74",,"2,098.18",,,,,"1,39,806.92",2128
+"Burgess,Donald George",Traffic Division,Supvising Traffic Engineer,"1,33,169.03",,"5,104.52",,,,,"1,38,273.55",1890
+"DeLeon,Karla",Adult Education,Director,"1,32,844.08",,"5,000.00",,,,,"1,37,844.08",1970
+"Boggs,Melvin",Traffic Division,Supv-Parking Enforcement,"1,14,247.83",,"1,500.00","19,862.65",,,,"1,35,610.48",2322
+"D'Amelio,Carmine T",Traffic Division,Asst Traffic Sign Supv ##,"89,443.14","1,447.48","1,633.16","43,005.49",,,,"1,35,529.27",1906
+"Sittig,William J.",Athletics,Director (BASAS 11B),"1,34,772.73",,,,,,,"1,34,772.73",2132
+"Zhang,Xiao Yun",Adult Education,Teacher,"1,23,334.64",,"11,428.74",,,,,"1,34,763.38",1824
+"Berard,Fernandel P.",Adult Education,Teacher,"1,24,526.23",,"9,814.54",,,,,"1,34,340.77",2155
+"Small,Catherine M",Traffic Division,Sr Parking Meter Supervisor II,"90,983.15","1,292.20",300,"39,737.21",,,,"1,32,312.56",2126
+"Le,Tan T",Traffic Division,WkgFrprsTraSignalRpprTest##,"97,853.89","1,466.16","2,102.42","30,364.38",,,,"1,31,786.85",2122
+"Moran,Matthew Michael",Traffic Division,Division Director,"1,17,603.48",,"2,196.71","11,810.91",,,,"1,31,611.10",2125
+"Donovan,Joseph",Traffic Division,Traffic Signal Supv,"1,16,182.89",,,"15,059.86",,,,"1,31,242.75",2127
+"Brack Jr.,Frederick C",Traffic Division,Asst Supv-Parking Enforcement,"67,268.02","1,288.64",300,"62,020.71",,,,"1,30,877.37",2136
+"Rosario,Ildo G",Traffic Division,Sr Parking Meter Supervisor I,"80,391.56","1,334.25",300,"46,133.73",,,,"1,28,159.54",2126
+"Fernandes,Karen R",Traffic Division,Sr Parking Meter Supervisor I,"87,696.17",960.33,300,"39,136.37",,,,"1,28,092.87",2136
+"Bradeen,Timothy J",Traffic Division,Sr Traffic Engineer,"1,07,792.90","1,242.12","1,921.99","16,920.53",,,,"1,27,877.54",2125
+"Kiriazis,Kostula A",Adult Education,Teacher,"1,25,173.32",,"2,435.95",,,,,"1,27,609.27",2189
+"Hellmold,Keith A",Finance,Project Manager (C),"1,27,571.42",,,,,,,"1,27,571.42",1801
+"Castillo-Reid,Michelle E",Auditing Department,Division Director,"1,15,816.15",,"4,393.42","7,201.15",,,,"1,27,410.72",2124
+"Driscoll,David M",Traffic Division,Sr Radio Communications Tech,"1,06,152.40","1,246.31","2,249.53","17,740.66",,,,"1,27,388.90",2021
+"Politano,Brian",Traffic Division,Sr Parking Meter Supervisor I,"80,364.77","1,044.69",300,"45,664.15",,,,"1,27,373.61",2122
+"Book,Karen Gerken",Finance,Director (NonAcad) D,"1,26,416.86",,,,,,,"1,26,416.86",2136
+"Lee,Jack",Traffic Division,Sr Parking Meter Supervisor II,"81,207.47","1,234.78","2,800.00","40,750.90",,,,"1,25,993.15",2118
+"Parker,Byron",Traffic Division,Asst Supv-Parking Enforcement,"53,667.46",528.68,300,"37,959.30","33,020.25",,,"1,25,475.69",2126
+"Kelley,James P",Auditing Department,Division Director,"1,23,849.40",,,408.68,,,,"1,24,258.08",2132
+"Stone,Lisa A",Auditing Department,Accounting Manager,"1,14,759.90",,"4,393.42","2,848.09",,,,"1,22,001.41",2128
+"Bournes,Marcelle Nelson",Traffic Division,Sr Radio Communications Tech,"80,930.84","1,513.98","1,751.74","36,879.62",,,,"1,21,076.18",2136
+"Foltz,Kimberly Sue",Traffic Division,Trans Program Planner IV,"1,11,524.28",,"1,949.88","7,210.94",,,,"1,20,685.10",2128
+"Warfield,Matthew",Traffic Division,Trans Program Planner IV,"1,08,661.73",,"2,047.17","8,861.32",,,,"1,19,570.22",2131
+"Corigliano,Rocco A",Traffic Division,Asst Dir of Parking Mgmt,"1,17,118.73",581.13,"1,320.75",,,,,"1,19,020.61",2131
+"Romano,John N",Traffic Division,Director of Operations,"1,16,475.72",543.95,"1,679.39",,,,,"1,18,699.06",2113
+"Fleetwood,Charlotte C",Traffic Division,Trans Program Planner IV,"1,14,623.13",,"1,757.37","2,083.85",,,,"1,18,464.35",2131
+"Dodson,Dana Anthony",Traffic Division,Sr Parking Meter Supervisor I,"79,723.88","1,136.09",300,"36,714.16",,,,"1,17,874.13",2121
+"Daniels,Amy L",Athletics,Sen  Program Coord C Non Acad,"1,15,827.30",,"2,000.00",,,,,"1,17,827.30",2122
+"Chow,Julio",Traffic Division,Prin Admin Asst (Planning T&P),"1,11,645.41","1,205.77",-865.39,"5,223.24",,,,"1,17,209.03",1748
+"Lu,Chao Jun",Finance,Unit Leader (C),"1,17,095.68",,,,,,,"1,17,095.68",2135
+"Alexander,Jennifer Marie",Finance,Coord-Manager C,"1,17,095.68",,,,,,,"1,17,095.68",2131
+"Andre,Serge-Eric",Adult Education,Asst Director C,"1,17,095.68",,,,,,,"1,17,095.68",2021
+"Ruane,Kevin E.",Traffic Division,Supv-Parking Meter Operations,"1,14,623.11",,"2,196.71",,,,,"1,16,819.82",2136
+"Andrew,Prema L",Auditing Department,Prin Admin Asst,"1,14,759.92",,,"1,789.53",,,,"1,16,549.45",1035
+"Brea,Angel A",Traffic Division,Supv-Parking Enforcement,"85,043.98",667.38,,"30,724.53",,,,"1,16,435.89",2131
+"Castillo,Natoya N",Auditing Department,Prin Admin Asst,"1,11,470.08",,"1,316.04","3,367.12",,,,"1,16,153.24",2122
+"Othmer,Cheryl A",Traffic Division,Sr Parking Meter Supervisor I,"79,640.79","1,136.48",300,"34,407.23",,,,"1,15,484.50",3234
+"Su,Ming Cheung",Auditing Department,Prin Admin Analyst,"64,769.57",,"47,922.95","2,555.52",,,,"1,15,248.04",2368
+"Tao,Patricia",Finance,Project Manager (C),"1,15,219.72",,,,,,,"1,15,219.72",2139
+"Bham,Ghulam H.",Traffic Division,Sr Traffic Engineer,"1,07,792.90","1,250.16","2,327.49","3,780.79",,,,"1,15,151.34",2128
+"Kline,Katherine M",Finance,Analyst (C),"1,14,856.72",,,,,,,"1,14,856.72",2131
+"Fay,Sheila Michelle",Auditing Department,Sr. Admin Assistant,"1,14,623.12",,,94.14,,,,"1,14,717.26",2081
+"Imbaro,Michael J",Auditing Department,Prin Admin Asst,"1,06,531.18",,584.96,"6,120.00",,,,"1,13,236.14",2132
+"Garrett-Coles,Charnae Dominique",Finance,Manager NonAcad C,"1,12,607.69",,,,,,,"1,12,607.69",2119
+"D'Amico,Robert D",Traffic Division,Trans Program Planner IV,"1,10,229.69",,"2,196.71",,,,,"1,12,426.40",1908
+"Reyes Saade,Daniela Maria",Finance,Analyst (C),"1,12,234.94",,,,,,,"1,12,234.94",1801
+"O'Neill Moccia,Maureen",Traffic Division,Asst Supv-Parking Enforcement,"87,977.78","1,076.76",300,"22,302.63",,,,"1,11,657.17",2136
+"Bynum,Keith A",Traffic Division,Sr Traffic Engineer,"1,08,426.40","1,177.68","1,921.99",89.04,,,,"1,11,615.11",2127
+"Moynihan,Shamus",Traffic Division,Sr Parking Meter Supervisor I,"68,855.05","1,212.81",300,"39,920.22",,,,"1,10,288.08",2130
+"Weathers,Darryl",Traffic Division,Sr Parking Meter Supervisor II,"88,903.22","1,098.69",300,"19,883.80",,,,"1,10,185.71",2124
+"Musto,Colin David",Auditing Department,Division Director,"1,05,744.73",,"1,870.22","2,233.64",,,,"1,09,848.59",2131
+"Wright,Soheil T",Traffic Division,Prin Traffic Investigator,"64,884.15","1,029.65",300,"43,431.01",,,,"1,09,644.81",2124
+"Hillebrand,John",Athletics,Manager NonAcad C,"1,08,827.54",,,,,,,"1,08,827.54",2048
+"Cabral,Domenica",Auditing Department,Supv-Payrolls,"65,937.57",,"36,400.10","6,450.92",,,,"1,08,788.59",2131
+"Rowe,Jennifer Marie",Traffic Division,Trans Program Planner IV,"1,03,612.44",,"3,449.88","1,399.74",,,,"1,08,462.06",2122
+"Batista Vasquez,Raymond Duran",Traffic Division,Parking Meter Supervisor,"68,763.81",897.58,300,"38,298.15",,,,"1,08,259.54",2122
+"Stephens,Helen F",Traffic Division,Sr Parking Meter Supervisor I,"80,065.48","1,021.23",300,"26,546.61",,,,"1,07,933.32",2121
+"Hidalgo Romero,Maria Paula",Finance,Sen Analyst(C),"1,07,577.46",,,,,,,"1,07,577.46",2122
+"Farnsworth,Henry David",Finance,Analyst (C),"1,07,577.46",,,,,,,"1,07,577.46",2139
+"Bunch,Rannie L.",Traffic Division,Parking Meter Supervisor,"68,243.85","1,014.01",300,"37,208.56",,,,"1,06,766.42",2126
+"Sanzi,Robin",Traffic Division,Parking Meter Supervisor,"69,224.15",998.84,300,"35,922.82",,,,"1,06,445.81",2125
+"Shamshak,Richard A",Traffic Division,Prin Admin Asst,"97,168.39","1,009.35",,"8,241.53",,,,"1,06,419.27",2124
+"Pleitez,Erica Selina",Auditing Department,Prin Admin Analyst,"1,00,069.32",,"1,618.24","4,678.79",,,,"1,06,366.35",2128
+"Laws,Brenda J",Traffic Division,Sr Parking Meter Supervisor I,"79,472.41",871.37,300,"25,607.18",,,,"1,06,250.96",2119
+"Rapczinski,Lisa J",Traffic Division,Sr Parking Meter Supervisor I,"79,640.75",984.76,300,"25,191.81",,,,"1,06,117.32",2132
+"Scanlan,Karen Ann",Traffic Division,Sr Parking Meter Supervisor I,"72,158.55",791.8,300,"26,901.77","5,286.61",,,"1,05,438.73",2129
+"Desharnais,Nadine M",Adult Education,Teacher,"1,04,959.08",,301.13,,,,,"1,05,260.21",2130
+"Jensen,Tracy E",Traffic Division,Parking Meter Supervisor,"68,243.99",991.79,300,"34,950.59",,,,"1,04,486.37",3304
+"Talevi,Robert N",Traffic Division,Sr Admin Asst,"73,482.26",,,"30,596.56",,,,"1,04,078.82",2132
+"Lindmark,Matthew T",Auditing Department,Sr Admin Asst,"1,00,145.73",,,"3,680.35",,,,"1,03,826.08",2129
+"Martinez,Luis Carlos",Finance,Specialist B (Non-Acad),"1,03,443.48",,,,,,,"1,03,443.48",2128
+"Stephenson,Dawn",Traffic Division,Sr Parking Meter Supervisor I,"66,056.71",800.96,300,"35,725.43",,,,"1,02,883.10",3038
+"Phan,Thanh",Traffic Division,Parking Meter Supervisor,"69,257.99",888.84,300,"32,337.33",,,,"1,02,784.16",2118
+"Decovnick,Shira E.",Finance,Director (NonAcad) D,"91,146.50",,"11,312.99",,,,,"1,02,459.49",2131
+"Henderson,Thomas",Traffic Division,Sr Radio Communications Tech,"90,036.93",997.15,"2,800.00","8,424.57",,,,"1,02,258.65",1906
+"Amaral,Deborah J",Traffic Division,Parking Meter Supervisor,"68,243.89",938.23,300,"32,614.15",,,,"1,02,096.27",2148
+"Dellorco,Anthony F",Traffic Division,Sr Parking Meter Supervisor II,"84,891.42",933.86,300,"15,318.91",,,,"1,01,444.19",2136
+"Bernard-Stapleton,Lisa",Traffic Division,Parking Meter Technology Specl,"99,868.03","1,039.35",300,,,,,"1,01,207.38",2062
+"Beggan,John J.",Traffic Division,Admin Asst,"85,912.43","1,009.93","2,800.00","11,217.19",,,,"1,00,939.55",2127
+"Lynch,Jessica Kelly",Traffic Division,Asst Traffic Engineer,"86,262.02","1,113.83","1,870.17","11,483.87",,,,"1,00,729.89",2127
+"Pierce,Shirlene A",Traffic Division,Parking Meter Supervisor,"68,243.86",976.55,300,"31,024.25",,,,"1,00,544.66",2126
+"Garabedian,Krikor",Traffic Division,WkgFrprsTraSignalRpprTest##,"73,281.75","1,041.88",300,"25,844.85",,,,"1,00,468.48",2131
+"Callahan,Mark",Traffic Division,Vehicle Impound Specialist ##,"58,217.23","1,030.82",716.35,"39,543.53",,,,"99,507.93",2170
+"Gueye,Judith",Adult Education,Teacher,"97,447.64",,"2,028.65",,,,,"99,476.29",2368
+"Moose,William Edward",Traffic Division,Trans Program Planner III,"90,643.36",,"1,699.02","7,007.24",,,,"99,349.62",2130
+"Ravenell,Tamika Chris",Traffic Division,Parking Meter Supervisor,"68,243.87",894.92,"2,800.00","27,275.58",,,,"99,214.37",2301
+"Hurley,Allen J.",Auditing Department,Sr Admin Anl (Sp Proj Stff)Aud,"95,450.36",,"1,829.15",901.5,,,,"98,181.01",2132
+"Lee,Sean",Traffic Division,Sr Traffic Signal Repairprs II,"74,885.12","1,165.57",350,"21,711.88",,,,"98,112.57",2127
+"Kenney-Bernard,Patricia Marie",Traffic Division,Asst Supv-Parking Enforcement,"88,663.23","1,011.39",300,"7,029.86",,,,"97,004.48",2132
+"Jordan,Brian Joseph",Adult Education,Teacher,"96,635.06",,298.84,,,,,"96,933.90",2131
+"Kirkland,Darryle V",Traffic Division,Sr Traffic Investigator,"57,297.32",906.07,300,"38,381.30",,,,"96,884.69",2124
+"Anderson,Taraneisha",Traffic Division,Sr Parking Meter Supervisor I,"73,545.23",871.37,300,"21,914.48",,,,"96,631.08",2301
+"Dankese,Margaret",Traffic Division,Parking Meter Supervisor,"67,894.24",907.6,300,"27,377.40",,,,"96,479.24",2122
+"Tinnirello,Lorenzo",Traffic Division,Traffic Signal Inspector,"80,262.45","1,054.65","2,800.00","12,117.24",,,,"96,234.34",2148
+"Murphy,Thomas Joseph",Traffic Division,Parking Meter Oper Frprs##,"58,757.28",901.6,300,"35,850.94",,,,"95,809.82",2124
+"Lucien,Medina C",Auditing Department,Sr Admin Anl (Sp Proj Stff)Aud,"95,450.38",,,,,,,"95,450.38",2136
+"Ramirez,Luis Alberto",Adult Education,Coord-Manager B,"83,400.54",,"11,500.00",,,,,"94,900.54",2127
+"Brown,Robert",Traffic Division,Parking Meter Supervisor,"62,844.46",783.89,300,"30,745.23",,,,"94,673.58",2170
+"Fresnillo,Jesus Alejandro",Traffic Division,Prin Traffic Engr,"89,254.24",947.47,300,"4,140.08",,,,"94,641.79",2128
+"Hogan,Loren",Traffic Division,Parking Meter Supervisor,"67,475.02",895.31,300,"25,718.82",,,,"94,389.15",2129
+"Penn,Imani Monet",Finance,Coord-Manager B,"93,432.46",,,,,,,"93,432.46",2368
+"Mitchell,Rondelle",Finance,Project Manager (C),"93,224.84",,,,,,,"93,224.84",2124
+"Pimentel,Massielle",Finance,Special Assistant (C),"93,224.84",,,,,,,"93,224.84",2132
+"Ha,Ann U",Adult Education,Coord-Manager C,"93,224.42",,,,,,,"93,224.42",2186
+"Monteiro,Denise A",Traffic Division,Parking Meter Supervisor,"67,760.66",898.39,300,"24,260.51",,,,"93,219.56",2131
+"Fong,Hannah Li Ying",Traffic Division,Trans Program Planner III,"92,524.72",,,229.44,,,,"92,754.16",2113
+"Harris,James P.",Traffic Division,Asst Supv-Parking Enforcement,"87,902.14",963.21,300,"3,417.08",,,,"92,582.43",2149
+"Gordon,Paul A",Traffic Division,Parking Meter Supervisor,"68,243.93",770.31,300,"23,133.91",,,,"92,448.15",2143
+"Grant-Bouyer,Kecia J",Traffic Division,Parking Meter Supervisor,"68,243.88",601.94,300,"23,170.80",,,,"92,316.62",2136
+"Vraibel,Amanda M",Traffic Division,Parking Meter Supervisor,"67,901.90",991.5,300,"22,421.59",,,,"91,614.99",2124
+"Kilduff,Vicki",Traffic Division,Sr Parking Meter Supervisor II,"89,387.19","1,018.20",300,222.74,,,,"90,928.13",2021
+"McDaniel,Morgan",Traffic Division,Employment Agreement,"75,489.64",658.27,"14,615.01",8.79,,,,"90,771.71",2120
+"Gag,Louisa",Traffic Division,Trans Program Planner III,"83,878.75",,922.05,"5,889.79",,,,"90,690.59",2135
+"Lynch,Janet",Traffic Division,Sr Parking Meter Supervisor I,"80,884.77",924.12,300,"8,345.51",,,,"90,454.40",2127
+"McDaniels,Samir",Athletics,Coord-Manager B,"83,400.40",,"6,500.00",,,,,"89,900.40",2125
+"Borah,Annisha",Traffic Division,Asst Traffic Engineer,"83,439.92",896.52,300,"5,180.16",,,,"89,816.60",2215
+"LeBlanc,Brian M",Traffic Division,Traffic Signal Inspector,"71,408.34","1,135.73","1,188.10","15,933.82",,,,"89,665.99",2131
+"Brack,Nicole B",Traffic Division,Parking Meter Supervisor,"69,257.91",866.68,300,"19,200.95",,,,"89,625.54",2136
+"Johnson,Sinthia",Auditing Department,Admin Asst,"88,211.39",,"1,342.80",-0.02,,,,"89,554.17",2121
+"Mancebo,Jacob",Traffic Division,Traffic OperationsTechnician##,"60,630.02",944.47,"1,358.92","26,548.95",,,,"89,482.36",2119
+"Moore,Mary L",Traffic Division,Parking Meter Supervisor,"68,933.33",749.8,300,"19,467.45",,,,"89,450.58",2124
+"Bone,Paul H",Traffic Division,Maint Mech (Painter) (T & P)##,"60,797.45",941.37,637.74,"26,829.61",,,,"89,206.17",2122
+"Gilmore,Terri",Traffic Division,Sr Parking Meter Supervisor I,"71,407.60",749.8,300,"16,091.45",,,,"88,548.85",2124
+"Morani,Charlene C.",Traffic Division,Parking Meter Supervisor,"69,725.53",878.34,300,"17,526.56",,,,"88,430.43",2128
+"Rosato,Jake",Auditing Department,Supv-Payrolls,"84,202.10",39.5,"1,713.11","1,983.34",,,,"87,938.05",2109
+"Moses,Ernest",Traffic Division,Sr Parking Meter Supervisor I,"65,466.87",900.38,300,"21,234.33",,,,"87,901.58",2126
+"O'Neil,Teresa M",Traffic Division,Sr Parking Meter Supervisor I,"79,640.85",850.27,300,"7,051.36",,,,"87,842.48",2125
+"Sweeney,Robert E",Auditing Department,Supv Of Acntng (Auditing),"87,592.55",,,,,,,"87,592.55",2136
+"Jackson,Lyle",Athletics,Coord-Manager B,"83,400.54",,"4,000.00",,,,,"87,400.54",2122
+"Fagundes,Stephanie Melo",Finance,Project Manager (C),"87,176.58",,,,,,,"87,176.58",2180
+"Petersen,Matthew Einar",Traffic Division,Trans Program Planner III,"79,818.24",,"1,260.05","6,037.41",,,,"87,115.70",2135
+"Arce,Kiara Genice",Athletics,Coord-Manager B,"82,858.67",,"4,000.00",,,,,"86,858.67",2136
+"Nauyokas,Jill S",Traffic Division,Parking Meter Supervisor,"62,941.64",755.5,,"16,795.58","5,950.08",,,"86,442.80",2127
+"McKinley,Brian A",Traffic Division,Jr Traffic Engr,"82,003.17",942.5,"1,840.75","1,264.94",,,,"86,051.36",2151
+"Cherrie,Phillip",Traffic Division,Sr Traffic Signal Repairprs II,"70,874.89",800.01,300,"14,026.18",,,,"86,001.08",2119
+"O'Reilly,Brian",Traffic Division,Sr Admin Asst,"62,167.97",718.73,,"22,652.96",,,,"85,539.66",2125
+"Webster,Madeline E",Traffic Division,Trans Program Planner III,"83,753.58",486.16,971.35,,,,,"85,211.09",2134
+"Blanciforte,Frank John",Traffic Division,Asst Supv-Parking Enforcement,"83,097.91",882.69,300,865.3,,,,"85,145.90",1960
+"Lane,Victor J.",Traffic Division,Sr Parking Meter Supervisor II,"78,795.29",698.57,300,"4,874.95",,,,"84,668.81",2446
+"Morellato,Marcio Douglas",Traffic Division,Parking Meter Supervisor,"67,342.49",823.29,300,"15,950.75",,,,"84,416.53",2129
+"Norris,Walter J",Traffic Division,Parking Meter Supervisor,"62,883.04",798.07,300,"20,189.44",,,,"84,170.55",2121
+"Haugh,Matthew",Auditing Department,Sr Admin Anl (Sp Proj Stff)Aud,"82,493.44",,768.38,612.62,,,,"83,874.44",2132
+"Wang,Wenzheng",Traffic Division,Trans Program Planner III,"81,760.04",,,"1,863.45",,,,"83,623.49",2210
+"Merced,Joseph P",Traffic Division,Jr Traffic Engr,"69,813.05",806.8,300,"12,556.56",,,,"83,476.41",2128
+"Johnson,Genita",Finance,Coord-Manager B,"83,400.40",,,,,,,"83,400.40",2155
+"Lopez,Xavier Alexander",Traffic Division,Trans Program Planner III,"72,960.17",,,"10,279.62",,,,"83,239.79",2124
+"Boy-Piedrasanta,Carlos E.",Traffic Division,Parking Meter Supervisor,"68,243.86",749.8,300,"13,821.35",,,,"83,115.01",2132
+"Rose,Janet Marie",Traffic Division,Sr Parking Meter Supervisor I,"81,712.76",847.38,300,,,,,"82,860.14",2769
+"Kim,Heyne",Traffic Division,Trans Program Planner III,"82,493.46",,,131.72,,,,"82,625.18",2129
+"Bean,Eric R",Traffic Division,Parking Meter Supervisor,"68,967.87",750.94,300,"12,418.72",,,,"82,437.53",2135
+"O'Neil,Molly M",Traffic Division,Parking Meter Supervisor,"58,560.43",785.11,300,"22,471.64",,,,"82,117.18",2122
+"Coveney,Debra M",Traffic Division,Parking Meter Supervisor,"68,967.90",830.86,300,"11,951.36",,,,"82,050.12",2191
+"Haufler,Kerry Lynn",Traffic Division,Admin Asst (Pwd),"62,182.20",888.39,300,"18,551.06",,,,"81,921.65",2127
+"Quigg,Patricia A.",Traffic Division,Sr Parking Meter Supervisor II,"47,261.70","1,164.93","25,807.20","7,297.32",,,,"81,531.15",2125
+"Buonopane,Eric A",Traffic Division,Parking Meter Supervisor,"68,498.22",787.99,958.25,"11,258.98",,,,"81,503.44",2128
+"Mayhew,Janiel Latanya",Adult Education,Jr. Coordinator B,"78,038.40",,"3,360.27",,,,,"81,398.67",2124
+"He,Carrie",Auditing Department,Prin Admin Asst,"77,869.17",487.59,"1,463.11","1,348.91",,,,"81,168.78",2130
+"Lopez,Julieta",Traffic Division,Parking Meter Supervisor,"60,290.02",700.66,300,"19,699.63",,,,"80,990.31",2124
+"Cappellano,Michael",Traffic Division,Sr Parking Meter Supervisor I,"79,640.75",847.38,300,,,,,"80,788.13",2171
+"Mills,Harper G",Traffic Division,Trans Program Planner III,"75,032.16",,"1,411.74","4,159.95",,,,"80,603.85",2134
+"Chen,Alex",Finance,Coord-Manager B,"80,583.51",,,,,,,"80,583.51",2148
+"Way,Teki M",Auditing Department,Sr Admin Anl,"79,411.92",,,875.98,,,,"80,287.90",2121
+"Caminero,Jayven",Traffic Division,Sr Traffic Investigator,"56,115.76",779.08,300,"22,975.67",,,,"80,170.51",2136
+"Orchard,Nathaniel Thomas",Traffic Division,Parking Meter Supervisor,"59,519.00",826.34,300,"19,398.61",,,,"80,043.95",2127
+"Monteiro,Mila",Adult Education,Community Field Coordinator,"76,456.42",,"3,404.30",,,,,"79,860.72",2122
+"Errico,Bryan Joseph",Traffic Division,Sr Traffic Investigator,"57,723.81",906.59,300,"20,580.71",,,,"79,511.11",2127
+"O'Neil,Mark M",Traffic Division,Asst Supv-Parking Enforcement,"74,649.36",829.02,300,"3,633.96",,,,"79,412.34",2125
+"Pitter,Mark J",Traffic Division,Vehicle Impound Specialist ##,"49,623.16",856.91,300,"28,314.95",,,,"79,095.02",2136
+"Maraio,Nicole S",Adult Education,Head Staff Assistant 28,"77,054.63",,"1,951.66",,,,,"79,006.29",1960
+"HILOWLE,FARAH",Adult Education,Jr. Coordinator B,"77,674.63",,"1,093.05",,,,,"78,767.68",2119
+"Quaisar,Sahill Joher",Athletics,Coord-Manager B,"78,715.39",,,,,,,"78,715.39",2125
+"Anderson,Matthew Richard",Traffic Division,Sr Parking Meter Supervisor I,"76,630.54",747.06,300,380.21,,,,"78,057.81",2132
+"Alabi,Mustapha",Traffic Division,Parking Meter Opr Person I##,"55,111.70",750.18,"2,800.00","19,385.39",,,,"78,047.27",2125
+"Weddleton,Lori",Traffic Division,Parking Meter Supervisor,"67,616.19",738.91,300,"9,321.87",,,,"77,976.97",2122
+"Barrow,Jonathan W",Traffic Division,Parking Meter Opr Person I##,"58,502.96",849.26,300,"18,254.46",,,,"77,906.68",2121
+"Hilliard,Jill",Traffic Division,Parking Meter Supervisor,"68,243.91",777.91,300,"8,130.36",,,,"77,452.18",2184
+"Tibbs,Keyahna P",Adult Education,Jr. Coordinator B,"75,030.37",,"2,400.00",,,,,"77,430.37",2190
+"Sanchez,David",Traffic Division,Traffic OperationsTechnician##,"56,021.88",742.8,300,"18,608.85","1,397.04",,,"77,070.57",2124
+"Pulgarin,Liliana V",Adult Education,Jr. Coordinator B,"74,517.51",,"2,551.66",,,,,"77,069.17",2128
+"Echevarria,Bettsaly",Finance,Coord-Manager B,"77,052.60",,,,,,,"77,052.60",2151
+"Herrera,Kathleen A",Traffic Division,Parking Meter Supervisor,"54,536.13",718.61,"2,800.00","10,916.40","7,873.36",,,"76,844.50",2128
+"Sheerin,Mary Ellen",Athletics,Admin Sec 28,"76,771.76",,,,,,,"76,771.76",2062
+"Perez,Emil C",Traffic Division,Parking Meter Supervisor,"68,243.81",739.54,"2,800.00","4,943.11",,,,"76,726.46",2136
+"Phan,Taylor Loren",Traffic Division,Parking Meter Supervisor,"63,607.06",788.23,300,"11,759.38",,,,"76,454.67",2125
+"Pocowatchit,Carol M",Traffic Division,Admin Asst,"72,940.72",840.59,"1,395.77","1,134.37",,,,"76,311.45",2132
+"Kuder,Nathan",Finance,Chief Financial Officer(F),"22,404.81",,"53,689.61",,,,,"76,094.42",2131
+"Myers,Robert",Traffic Division,Vehicle Impound Specialist ##,"55,989.22",691.63,300,"18,803.75",,,,"75,784.60",2125
+"Brandao,Keven",Traffic Division,Asst Traffic Engineer,"74,219.21",813.91,300,391.27,,,,"75,724.39",2122
+"Curry,Michael F",Traffic Division,Asst Supv-Parking Enforcement,"66,201.85",772.6,"2,800.00","5,891.63",,,,"75,666.08",2190
+"Lincoln,Richard M",Traffic Division,Head Admin Clerk,"60,134.30",752.84,"3,461.92","11,269.67",,,,"75,618.73",2127
+"Pino,Christine",Traffic Division,Parking Meter Supervisor,"68,967.85",739.54,"2,800.00","2,936.97",,,,"75,444.36",2127
+"Rojas,Magnolia",Auditing Department,Sr. Payroll Specialist,"73,240.01",,,"1,948.85",,,,"75,188.86",2128
+"Borrero,Pedro J.",Traffic Division,Vehicle Impound Specialist ##,"56,136.09",777.68,300,"17,907.33",,,,"75,121.10",2136
+"DaSilveira,Mannie",Traffic Division,Traffic Signal Repairprs##,"57,838.80",748.16,300,"15,056.81",768.49,,,"74,712.26",2861
+"Davis,Timothy J",Traffic Division,Sr Traffic Main Prs(Sign Fab),"68,243.85",749.81,300,"5,252.62",,,,"74,546.28",2364
+"Picariello,John",Traffic Division,Parking Meter Supervisor,"59,916.42",719.41,300,"13,580.14",,,,"74,515.97",2127
+"Hutchinson,Nancy Ann",Traffic Division,Parking Meter Supervisor,"51,832.90",583.03,300,"21,793.85",,,,"74,509.78",2127
+"Mancebo,Anson",Traffic Division,Asst Traffic Sign Supv ##,"71,270.16",749.56,"1,493.18",860.16,,,,"74,373.06",2119
+"Rose,Karin A",Traffic Division,Admin Asst,"71,787.69",784.15,300,"1,100.55",,,,"73,972.39",2115
+"Ivaska,David V",Traffic Division,Asst Supv-Parking Enforcement,"62,106.51",643.78,300,"10,814.64",,,,"73,864.93",2127
+"Minasidis,Despina",Traffic Division,Parking Meter Supervisor,"60,082.86",717.07,300,"12,740.02",,,,"73,839.95",2118
+"Mudgal,Maya",Traffic Division,Trans Program Planner III,"66,455.58",,"1,038.26","6,136.42",,,,"73,630.26",2215
+"Crowley,Karen A",Traffic Division,Head Admin Clerk,"64,653.94",731.77,300,"7,803.60",,,,"73,489.31",2122
+"Scott,Jennifer B",Traffic Division,Parking Meter Supervisor,"57,822.31",806.15,300,"14,304.15",,,,"73,232.61",2134
+"Jacobs,Anna",Traffic Division,Program Manager,"68,123.34",,,"5,093.16",,,,"73,216.50",2131
+"Melendez Roach,Daisy",Traffic Division,Parking Meter Supervisor,"68,243.88",739.54,300,"3,585.21",,,,"72,868.63",2136
+"Fultz,Kimberly A",Traffic Division,Parking Meter Supervisor,"68,094.92",762.47,300,"3,597.98",,,,"72,755.37",2780
+"Kain,Carolyn Jeanne",Traffic Division,Parking Meter Supervisor,"68,498.25",763.9,300,"3,012.52",,,,"72,574.67",2124
+"Forbes,Linda A",Traffic Division,Parking Meter Supervisor,"68,201.74",739.54,300,"3,332.35",,,,"72,573.63",2126
+"Mitchell,Errol",Traffic Division,Sr Traffic Main Prs(Sign Fab),"52,120.44",763.99,300,"19,387.72",,,,"72,572.15",2124
+"Pinto,Andres",Traffic Division,Parking Meter Supervisor,"68,243.92",739.54,300,"3,159.09",,,,"72,442.55",1571
+"White,Martin M",Traffic Division,Traffic Signal Repairprs##,"55,860.20",838.47,300,"15,442.37",,,,"72,441.04",2127
+"Tejeda,Dirson Manuel",Traffic Division,Sr Traffic Investigator,"57,134.49",888.48,300,"13,759.19",,,,"72,082.16",2119
+"Young,Stephanie Denise",Traffic Division,Admin Asst (Pwd),"70,707.90",753.7,300,,,,,"71,761.60",2121
+"Lew,Tyler R",Traffic Division,Trans Program Planner III,"66,694.89",,732.89,"3,904.47",,,,"71,332.25",2129
+"Hasan,Kamrul",Traffic Division,Parking Meter Supervisor,"58,793.14",701.58,300,"11,520.28",,,,"71,315.00",2125
+"Saez,Eliezer",Traffic Division,Vehicle Impound Specialist ##,"56,078.33",748.98,300,"14,103.80",,,,"71,231.11",2131
+"Egan,Paul",Traffic Division,Head Admin Clerk,"60,872.89",760.58,300,"9,227.72",,,,"71,161.19",2125
+"Robinson,Omonigho B",Traffic Division,Vehicle Impound Specialist ##,"55,750.26",814.39,300,"14,219.98",,,,"71,084.63",2124
+"Fabiano,Jeremy",Traffic Division,Parking Meter Supervisor,"70,038.51",736.95,300,,,,,"71,075.46",1904
+"Mini,David M.",Traffic Division,Parking Meter Supervisor,"67,740.60",741,300,"2,095.58",,,,"70,877.18",2703
+"Rogers,Kacie L",Traffic Division,Parking Meter Supervisor,"68,243.88",739.54,300,"1,579.56",,,,"70,862.98",2124
+"Dallta,Gorge Anesti",Auditing Department,Senior Payroll Specialist,"67,960.34",429.43,250,"2,088.78",,,,"70,728.55",2127
+"Mullen,Heather A",Traffic Division,Parking Meter Supervisor,"68,243.89",739.54,300,"1,184.67",,,,"70,468.10",2127
+"Chancellor,George",Traffic Division,Vehicle Impound Specialist ##,"52,384.10",793.56,300,"16,376.13",,,,"69,853.79",2136
+"Mathis,Timothy J",Auditing Department,Deputy City Auditor,"69,831.04",,,,,,,"69,831.04",2130
+"Kyriakides,Stephen Michael",Traffic Division,Parking Meter Supervisor,"58,793.12",745.18,300,"9,953.98",,,,"69,792.28",2122
+"Milbrandt,Daniel Robert",Traffic Division,Trans Program Planner III,"63,878.06",,,"5,496.67",,,,"69,374.73",2134
+"Mahoney,Patrick",Traffic Division,Parking Meter Supervisor,"51,086.88",589.11,300,"17,390.92",,,,"69,366.91",2122
+"Castillo Castillo,Maria Daniela",Traffic Division,Trans Program Planner III,"63,935.64",,,"5,396.08",,,,"69,331.72",2125
+"Durgin Jr.,George E.",Traffic Division,Parking Meter Supervisor,"68,243.93",739.54,300,,,,,"69,283.47",2124
+"Iraola,Pamela G",Traffic Division,Parking Meter Supervisor,"68,243.90",739.54,300,,,,,"69,283.44",2346
+"Markey,John David",Traffic Division,Parking Meter Supervisor,"68,243.89",739.54,300,,,,,"69,283.43",1887
+"Mullen,Christine M",Traffic Division,Parking Meter Supervisor,"68,243.88",739.54,300,,,,,"69,283.42",2127
+"Magee,Pamela A",Traffic Division,Parking Meter Supervisor,"68,243.84",739.54,300,,,,,"69,283.38",2129
+"Iantosca,Tammie L",Traffic Division,Parking Meter Supervisor,"63,080.92",749.47,300,"5,143.87",,,,"69,274.26",2132
+"LeBlanc,Nancy",Traffic Division,Parking Meter Supervisor,"58,723.06",692.48,300,"9,516.14",,,,"69,231.68",2124
+"Castanos,Silvia Del Carmen",Traffic Division,Trans Program Planner III,"66,216.26",,741.61,"1,949.42",,,,"68,907.29",2130
+"Welch,Joanne",Traffic Division,Parking Meter Supervisor,"67,859.54",706.17,300,,,,,"68,865.71",2127
+"Barnes,Cynthia",Adult Education,Teacher,"68,548.09",,227.24,,,,,"68,775.33",2127
+"Twomey,Aidan Patrick",Traffic Division,Parking Meter Supervisor,"50,729.50",398.96,300,"17,321.72",,,,"68,750.18",2132
+"Pleitez Pineda,Xiomara A",Auditing Department,Sr Admin Asst,"66,071.29",399.45,708.25,"1,106.94",,,,"68,285.93",2128
+"Andino,Angel L",Traffic Division,Sr Parking Meter Supervisor I,"24,912.94",539.24,,,"42,603.36",,,"68,055.54",2124
+"Nguyen,An",Traffic Division,Sr Traffic Signal Repairprs II,"62,031.90",666.5,300,"4,893.16",,,,"67,891.56",2122
+"Biancuzzo,Paul",Traffic Division,Sr Traffic Signal Repairprs I,"66,252.49",741.87,300,558.27,,,,"67,852.63",2131
+"Gerratt,Bradley Scott",Traffic Division,Employment Agreement,"67,443.75",,,,,,,"67,443.75",2131
+"Watson,Eric Edward",Traffic Division,Jr Traffic Engr,"62,290.20",745.3,300,"3,704.42",,,,"67,039.92",2124
+"Frazier,Jessica Mona Lisa",Traffic Division,Parking Meter Supervisor,"57,239.70",491.02,300,"8,830.96",,,,"66,861.68",2124
+"Leydon,James L",Traffic Division,Sr Traffic Signal Repairprs I,"65,663.98",725.72,300,95,,,,"66,784.70",2125
+"Larkin-Dunphy,Maxwell",Auditing Department,Sr Admin Anl (Sp Proj Stff)Aud,"64,500.18",377.54,,"1,770.79",,,,"66,648.51",2135
+"Pierre,Barthelemyr",Traffic Division,Parking Meter Opr Person I##,"43,040.79",987.66,"4,705.66","17,879.76",,,,"66,613.87",2136
+"DeClements,Dennis Vincent",Traffic Division,Gen Maint Mech,"53,512.07",736.6,300,"11,801.20",,,,"66,349.87",2136
+"Denis,Michel",Traffic Division,Parking Meter Supervisor,"59,620.30",383.51,"6,197.46",,,,,"66,201.27",2136
+"Connolly,Andrea M",Traffic Division,Claims Investigator(Opc),"57,723.80",682.36,300,"7,315.37",,,,"66,021.53",2127
+"Vaughn,Kevin A",Traffic Division,Parking Meter Oper Frprs##,"55,974.12",881.3,"8,498.28",322.56,,,,"65,676.26",2119
+"Conforti,Kimberly Ann",Traffic Division,Parking Meter Supervisor,"57,929.44",643.85,300,"6,631.06",,,,"65,504.35",2127
+"Skinner,Michael P.",Traffic Division,Vehicle Impound Specialist ##,"56,297.21",653.89,300,"7,478.10",,,,"64,729.20",2122
+"O'Reilly,Ana Lisa Monredondo",Traffic Division,Parking Meter Supervisor,"59,908.39",644.94,300,"3,873.27",,,,"64,726.60",2125
+"Cully,Kevin Joseph",Traffic Division,Sr Traffic Signal Repairprs I,"50,494.60",605.13,300,"13,225.64",,,,"64,625.37",2127
+"Fitzgerald,Paul",Traffic Division,Vehicle Impound Specialist ##,"56,297.23",660.01,300,"7,119.13",,,,"64,376.37",2127
+"Magliozzi,Julia",Adult Education,Teacher,"64,015.07",,278.24,,,,,"64,293.31",2493
+"Crouse,Mattie L.",Auditing Department,Sr Accountant,"62,401.11",405.12,250,"1,196.44",,,,"64,252.67",2124
+"Gilmore,Jermaine",Traffic Division,Vehicle Impound Specialist ##,"53,564.52",646.55,300,"9,578.84",,,,"64,089.91",2121
+"Wagstaff Jr,Christopher D",Traffic Division,Jr Traffic Engr,"62,103.04",702.48,300,590.04,,,,"63,695.56",2116
+"Kryder,James",Traffic Division,Vehicle Impound Specialist ##,"47,883.32",667.81,300,"14,622.66",,,,"63,473.79",2127
+"Joyce,Maureen Ann",Auditing Department,City Auditor,"47,596.13",,"15,799.48",,,,,"63,395.61",2132
+"Minot-Weishar,Aysha Elysabeth",Traffic Division,Trans Program Planner III,"62,429.33",,,698.85,,,,"63,128.18",2130
+"Duffley,Shannon Marie",Traffic Division,Sr Admin Asst,"62,449.72",,,658.61,,,,"63,108.33",2122
+"Reardon,Sheila",Auditing Department,Sr Accountant,"62,414.81",395.16,250,,,,,"63,059.97",2122
+"Ruiz,Edward",Traffic Division,Head Storekeeper,"61,212.31",695.87,300,586.68,,,,"62,794.86",2127
+"Cunha,Edder Dos Santos",Traffic Division,Parking Meter Supervisor,"51,091.60",540.77,300,"10,733.76",,,,"62,666.13",2125
+"Ogden,Sean L",Traffic Division,Sr Traffic Signal Repairprs I,"54,211.72",651.59,"1,206.73","6,543.42",,,,"62,613.46",2136
+"Botelho,Marc Paul",Traffic Division,Parking Meter Supervisor,"57,814.06",656.57,300,"3,804.25",,,,"62,574.88",2126
+"Moore,Nathaniel Joseph",Traffic Division,Vehicle Impound Specialist ##,"42,338.55",662.02,300,"19,140.57",,,,"62,441.14",2136
+"Gilmore,Johnell",Traffic Division,Vehicle Impound Specialist ##,"53,564.52",699.27,300,"7,749.72",,,,"62,313.51",2121
+"Marshall,Herbert S",Traffic Division,Vehicle Impound Specialist ##,"50,087.53",700.54,300,"11,082.24",,,,"62,170.31",1902
+"Howard-Cousins,Davaughn",Traffic Division,Parking Meter Supervisor,"59,437.29",657.13,300,"1,724.80",,,,"62,119.22",2126
+"Thaing,Paul",Auditing Department,Sr. Accounts Payable Analyst,"60,897.79",382.58,250,507.89,,,,"62,038.26",2135
+"Hughes,Craig",Traffic Division,Parking Meter Supervisor,"59,573.21",631.2,300,"1,347.68",,,,"61,852.09",2124
+"Duggan,Stephen Joseph",Traffic Division,Claims Investigator(Opc),"52,104.47",650.24,300,"7,667.84",,,,"60,722.55",2127
+"Bryson,Daniel P.",Traffic Division,Parking Meter Oper Person I##,"58,179.91",652.37,300,"1,410.98",,,,"60,543.26",2136
+"Waple,Paul F.",Auditing Department,Employment Agreement,"60,000.00",,,,,,,"60,000.00",29676
+"Costa,Bruna L",Auditing Department,Senior Payroll Specialist,"58,485.95",615.97,664.27,26.79,,,,"59,792.98",2128
+"Padilha,Samantha T",Traffic Division,Parking Meter Supervisor,"56,608.25",691.83,300,"2,116.30",,,,"59,716.38",2128
+"Veth,Samantha Nicole",Traffic Division,Trans Program Planner III,"55,628.38",,,"3,202.74",,,,"58,831.12",2115
+"Lee,Hong M",Traffic Division,Sr Traffic Investigator,"57,723.75",658.17,300,,,,,"58,681.92",2136
+"Murphy,Maura J",Traffic Division,Parking Meter Supervisor,"57,011.09",600.68,924.22,,,,,"58,535.99",2127
+"Canuto,Lucas B",Traffic Division,Sr Traffic Maint Person##,"42,715.20",630.5,300,"14,636.99",,,,"58,282.69",2119
+"Gonzalez,Julie M",Traffic Division,Parking Meter Supervisor,"49,722.24",317.92,300,"7,918.80",,,,"58,258.96",2126
+"Halliday,Antonio R",Athletics,Coach (NonTPP),"57,631.24",,,,,,,"57,631.24",2474
+"Morris,Tyler",Traffic Division,Parking Meter Supervisor,"55,492.00",604.75,300,977.52,,,,"57,374.27",2121
+"Loftus,Martin",Traffic Division,Vehicle Impound Specialist ##,"56,297.25",632.85,300,,,,,"57,230.10",2127
+"Bernard,Robert M",Traffic Division,WkgFrprsTraSignalRpprTest##,"9,316.02",445.93,-75,,"47,523.87",,,"57,210.82",2132
+"Tillery,Tonya M",Traffic Division,Parking Meter Supervisor,"53,507.73",579.34,300,"2,736.73",,,,"57,123.80",2124
+"Sanchez,David",Traffic Division,Dispatcher,"55,434.75",612.84,300,150.12,,,,"56,497.71",2121
+"Rodriguez,Helen M",Traffic Division,Parking Meter Supervisor,"52,180.96",733.34,300,"3,197.49",,,,"56,411.79",2131
+"Mendoza,Nicole",Finance,Coord-Manager C,"55,966.75",,,,,,,"55,966.75",1852
+"Garcia,Omar",Traffic Division,Parking Meter Supervisor,"51,087.02",525.85,300,"3,927.92",,,,"55,840.79",2128
+"Gibson-Okunieff,Judith",Traffic Division,Program Manager,"55,320.89",,,495.13,,,,"55,816.02",2130
+"Uribe,Steven R",Traffic Division,Vehicle Impound Specialist ##,"46,169.40",616.27,300,"8,656.58",,,,"55,742.25",2119
+"Petruccelli,Richard Joseph",Traffic Division,Claims Investigator(Opc),"51,456.04",630.32,300,"2,983.32",,,,"55,369.68",2115
+"Wyche-Wall,Jevon",Traffic Division,Sr Traffic Maint Person##,"44,654.75",658.44,300,"8,685.47",,,,"54,298.66",2121
+"Keller,Anthony Thomas",Traffic Division,Parking Meter Supervisor,"51,276.93",554.92,300,"2,124.57",,,,"54,256.42",2127
+"McIntyre-Powell,Carolyn A",Traffic Division,Parking Meter Supervisor,"49,007.88",320.33,300,"4,263.98",,,,"53,892.19",2122
+"Steadman,James",Traffic Division,Vehicle Impound Specialist ##,"45,797.29",509.29,300,"6,865.32",,,,"53,471.90",2127
+"Tormey,Michael Keith",Traffic Division,Trans Program Planner III,"52,084.39",,,"1,040.30",,,,"53,124.69",2113
+"Valbrun,Jean",Traffic Division,Vehicle Impound Specialist ##,"43,419.05",410.64,300,"7,742.83",,,,"51,872.52",2131
+"Gonzalez,Matthew Rico",Traffic Division,Traffic Signal Repairprs##,"45,608.21",445.08,300,"4,972.84",,,,"51,326.13",2121
+"Berman,Jake A",Traffic Division,Trans Program Planner III,"51,284.30",,,,,,,"51,284.30",2130
+"Smith,Elizabeth",Adult Education,Social Worker/Coordinator,"50,754.78",,131.96,,,,,"50,886.74",2122
+"Bhatti,Ateeqa",Auditing Department,Sr Accountant,"49,714.14",259.2,250,543.95,,,,"50,767.29",2135
+"Watner,Barbara Zaneta",Auditing Department,Sr Admin Anl,"49,433.69",64.8,250,967.32,,,,"50,715.81",2128
+"Corchado,Sheila Marie",Traffic Division,Claims Investigator(Opc),"44,141.71",542.16,300,"5,611.12",,,,"50,594.99",2215
+"Glora,Sally D.",Auditing Department,Employment Agreement,"49,376.00",,,,,,,"49,376.00",2127
+"Tobin,Ann Marie",Traffic Division,Admin Asst,"37,663.92",,"11,502.44",,,,,"49,166.36",2538
+"Dilworth,Richard James",Traffic Division,Vehicle Impound Specialist ##,"35,177.14",335.14,300,"6,951.15","5,954.08",,,"48,717.51",2124
+"Sanchez,Armani David",Traffic Division,Sr Traffic Maint Person##,"40,656.26",437.77,300,"6,590.56",,,,"47,984.59",2126
+"Gomez,Marleni",Finance,Coord-Manager B,"44,435.44",,"3,253.35",,,,,"47,688.79",2130
+"Buchanan,Anthony E.",Auditing Department,Asst Prin Accountant,"45,098.67",421.82,"1,558.37",,,,,"47,078.86",2121
+"Williams,Emorey C",Traffic Division,Jr Eng Aid,"45,921.55",529.82,300,,,,,"46,751.37",2302
+"Foppiano,Michelle",Adult Education,Adult Ed-Tchr/Asst,"46,743.29",,,,,,,"46,743.29",2141
+"Hamilton,John",Auditing Department,Sr Admin Anl (Sp Proj Stff)Aud,"46,582.39",,,,,,,"46,582.39",2136
+"Walsh,Jonathan Timothy",Traffic Division,Traffic Signal Repairprs##,"43,392.51",445.46,300,"2,364.34",,,,"46,502.31",2127
+"Casalinuovo,Bradley Edmund",Traffic Division,Dispatcher,"43,146.06",528.02,300,"2,425.43",,,,"46,399.51",2134
+"White,Grecia",Traffic Division,Trans Program Planner III,"44,172.08",,,"1,472.54",,,,"45,644.62",2128
+"Williams,Kendall Eric",Traffic Division,Parking Meter Supervisor,"45,299.09",,300,,,,,"45,599.09",2121
+"Riascos,Martha C.",Finance,Employment Agreement,"44,530.00",,,,,,,"44,530.00",33027
+"Belmont,Nathaniel",Traffic Division,Employment Agreement,"44,330.95",,,,,,,"44,330.95",2119
+"Robinson,Dashawna Renee",Traffic Division,Dispatcher,"40,106.97",458.21,300,"3,256.31",,,,"44,121.49",2119
+"Castor,Kerry",Traffic Division,Coordinator,"42,470.06",521.59,,971.64,,,,"43,963.29",2132
+"O'Neil,Kayla Nicole",Traffic Division,Claims Investigator(Opc),"41,132.92",345.68,300,"1,844.98",,,,"43,623.58",2125
+"Sanchez,Luis",Traffic Division,Employment Agreement,"43,451.75",,,,,,,"43,451.75",2130
+"Errico,Angela M",Traffic Division,Parking Meter Supervisor,"31,904.06",204.7,300,"1,664.46","8,893.24",,,"42,966.46",2124
+"Flaherty,Coleman G.",Traffic Division,Exec Asst,"41,622.10",,,500.3,,,,"42,122.40",2186
+"Dasilva-Monteiro,Isabel M",Traffic Division,Dispatcher,"36,743.10",469.89,785.19,"1,385.90",,,,"39,384.08",2119
+"Reed,Michael L",Traffic Division,Parking Meter Opr Person I##,"29,975.43",981.14,"1,264.40","6,175.29",,,,"38,396.26",2120
+"Watkins,Anthony",Traffic Division,Parking Meter Supervisor,"34,883.08",710.05,,"2,258.26",,,,"37,851.39",2124
+"Williams,Makayla Krystal",Traffic Division,Parking Meter Supervisor,"34,823.39",,300,"2,574.56",,,,"37,697.95",2120
+"Brown,Albert P",Traffic Division,Traffic Signal Repairprs##,,,"4,728.37",,"32,451.64",,,"37,180.01",1906
+"Fernandes,Albertino Gomes",Traffic Division,Parking Meter Supervisor,"34,208.02",,300,"2,016.14",,,,"36,524.16",2121
+"Carr Butler,Elizabeth A",Adult Education,Teacher,"18,467.90",,"17,913.90",,,,,"36,381.80",2124
+"Lyons,John F",Traffic Division,Parking Meter Supervisor,"35,374.56",739.54,,,,,,"36,114.10",2127
+"Todman,Amos",Traffic Division,Parking Meter Supervisor,"34,631.56",,300,632.15,,,,"35,563.71",2124
+"Campbell,Linda Anne",Traffic Division,Parking Meter Supervisor,"34,710.70",,300,341.7,,,,"35,352.40",2135
+"O'Neil,Jaclyn Marie",Traffic Division,Parking Meter Supervisor,"25,837.14",368.69,300,"8,562.48",,,,"35,068.31",2127
+"Wessel,Jacob Katz",Traffic Division,Trans Program Planner III,"31,070.18",,970.94,901.58,,,,"32,942.70",90402
+"Mbengue,Abdoulaye Fall",Traffic Division,Parking Meter Supervisor,"32,150.91",,767.76,,,,,"32,918.67",2121
+"Baez,Lionel",Traffic Division,Vehicle Impound Specialist ##,"20,635.13",,300,"9,985.95",,,,"30,921.08",2121
+"Laboy,Kelvin",Traffic Division,Gen Maint Mech,"28,440.36",,300,"1,851.72",,,,"30,592.08",2127
+"Payne,Wind-Starr",Traffic Division,Jr Traffic Engr,"29,837.63",,300,,,,,"30,137.63",2136
+"Diaz,Juan Francisco",Traffic Division,Vehicle Impound Specialist ##,"23,062.97",619.48,"1,110.96","2,609.69",,,,"27,403.10",2136
+"Conroy,William Henry",Traffic Division,Trans Pgm Plnr (red circled),"24,876.78",,,"2,417.25",,,,"27,294.03",2125
+"Succar,Hanna",Traffic Division,Vehicle Impound Specialist ##,"26,124.97",632.85,,,,,,"26,757.82",2132
+"Morency,Michael",Adult Education,Adult Ed-Tchr/Asst,,,"26,475.00",,,,,"26,475.00",1908
+"Robinson,Barrington L.",Athletics,Coach (NonTPP),"26,409.10",,,,,,,"26,409.10",2301
+"Morgan,Devondre Julian - Owen",Traffic Division,Traffic Signal Repairprs##,"25,334.00",446.13,,196.6,,,,"25,976.73",2136
+"Rogers,Dana",Traffic Division,Parking Meter Supervisor,"24,032.77",377.02,934.48,186.88,,,,"25,531.15",
+"Vega Lopez,Geivanny lee",Traffic Division,Vehicle Impound Specialist ##,"16,748.20",,300,"7,673.57",,,,"24,721.77",2126
+"Wooden,Jacquin",Traffic Division,Vehicle Impound Specialist ##,"16,853.03",,300,"6,703.76",,,,"23,856.79",2124
+"McLean,Licia Marie",Traffic Division,Parking Meter Supervisor,"23,475.42",,300,,,,,"23,775.42",2124
+"Stfort,Russo David",Traffic Division,Vehicle Impound Specialist ##,"21,948.23",,300,"1,457.17",,,,"23,705.40",2124
+"Hickson,Britney jonae",Traffic Division,Parking Meter Supervisor,"22,843.63",,300,,,,,"23,143.63",2124
+"Farnkoff,Kerry A",Traffic Division,Parking Meter Supervisor,"22,810.80",,300,,,,,"23,110.80",2127
+"Caparoso,Amanda Jean",Traffic Division,Trans Program Planner III,"23,031.48",,,,,,,"23,031.48",2114
+"Wilson,Dennis G",Athletics,Coach (NonTPP),"23,010.12",,,,,,,"23,010.12",2126
+"Francois,Elijahquan E",Traffic Division,Parking Meter Supervisor,"22,601.21",,300,,,,,"22,901.21",2120
+"James,Cornell D",Traffic Division,Parking Meter Supervisor,"22,501.59",294.44,,23.36,,,,"22,819.39",2126
+"Perry,Demond",Traffic Division,Vehicle Impound Specialist ##,"16,668.19",,300,"5,460.30",,,,"22,428.49",2120
+"Frazier,Roland Lamar",Traffic Division,Sr Traffic Maint Person##,"21,786.45",,300,,,,,"22,086.45",2126
+"Sanchez,Keven",Traffic Division,Parking Meter Supervisor,"18,758.60",563.23,,"2,254.58",,,,"21,576.41",2124
+"Morrison,Titus Eugene",Auditing Department,Sr Accountant,"20,914.07",,250,235.87,,,,"21,399.94",2122
+"Wilmott,Jack Lukaczyk",Traffic Division,Jr Eng Aid,"20,213.93",273.54,,,,,,"20,487.47",2115
+"Henderson,Ryan J.",Traffic Division,Jr Eng Aid,"20,181.12",,,,,,,"20,181.12",2120
+"Anderson,Lilian Marie",Traffic Division,Jr Eng Aid,"20,181.12",,,,,,,"20,181.12",2120
+"Andersen,Christopher",Traffic Division,Jr Eng Aid,"20,181.11",,,,,,,"20,181.11",2215
+"Blondin,Christian M",Athletics,Coach (NonTPP),"20,149.02",,,,,,,"20,149.02",1938
+"Wood,Tyler Anthony",Traffic Division,Jr Eng Aid,"19,703.68",297.63,,,,,,"20,001.31",2120
+"Lu,Erica Jenny",Traffic Division,Jr Eng Aid,"19,703.68",297.63,,,,,,"20,001.31",2118
+"Nutter,Joelle",Traffic Division,Jr Eng Aid,"19,703.68",297.63,,,,,,"20,001.31",2120
+"Guerrier,Alex Justin",Athletics,Coach (NonTPP),"16,796.99",,"2,750.00",,,,,"19,546.99",2122
+"Fisher,Judith P.",Traffic Division,Parking Meter Supervisor,"16,705.52",780.72,,"1,922.00",,,,"19,408.24",2124
+"Torres,Carlos",Traffic Division,Vehicle Impound Specialist ##,"11,823.03",,300,"1,903.36","5,336.59",,,"19,362.98",2136
+"Wall,George F",Traffic Division,Asst Supv-Parking Enforcement,"5,380.64","1,125.73","10,751.94","1,071.92",,,,"18,330.23",2127
+"Odysseos,Eleni C",Traffic Division,Parking Meter Supervisor,"15,682.60",,"2,507.61",,,,,"18,190.21",2132
+"Ramos,Kenneth",Athletics,Coach (NonTPP),"18,150.72",,,,,,,"18,150.72",2124
+"Robertson,Javion",Traffic Division,Dispatcher,"17,845.51",,300,,,,,"18,145.51",2127
+"Kostka Jr.,John Michael",Traffic Division,Parking Meter Supervisor,"15,823.75",673.96,,"1,278.68",,,,"17,776.39",2124
+"Woods,Frank V",Athletics,Coach (NonTPP),"17,437.02",,,,,,,"17,437.02",2050
+"Dang,Vincent",Traffic Division,Employment Agreement,"16,432.50",,,,,,,"16,432.50",2126
+"Sahadeo,Anthony",Traffic Division,Parking Meter Supervisor,"16,039.37",,300,,,,,"16,339.37",2130
+"Baez,Samantha M",Traffic Division,Parking Meter Supervisor,"15,897.86",,300,,,,,"16,197.86",2124
+"Jackson,Erica",Traffic Division,Parking Meter Supervisor,"15,724.08",,300,,,,,"16,024.08",2118
+"Gerald,Jewellyn Laurensina Natasha",Traffic Division,Parking Meter Supervisor,"15,582.87",,300,,,,,"15,882.87",2121
+"Choukas,Heather",Traffic Division,Parking Meter Supervisor,"15,493.47",,300,,,,,"15,793.47",2127
+"Davis,Martin",Traffic Division,Parking Meter Supervisor,"15,467.14",,300,,,,,"15,767.14",2124
+"Cooper,Marquie",Traffic Division,Parking Meter Supervisor,"15,306.88",,300,,,,,"15,606.88",2131
+"Burton,Cleveland w",Traffic Division,Parking Meter Supervisor,"15,371.30",,,,,,,"15,371.30",2124
+"Desrosiers,Diana",Traffic Division,Parking Meter Supervisor,"15,014.27",,300,,,,,"15,314.27",2115
+"Williams Jr.,Glendon Caesar",Traffic Division,Parking Meter Supervisor,"14,894.88",,300,,,,,"15,194.88",2136
+"Gadson,Kevin",Athletics,Coach (TPP),"15,076.01",,,,,,,"15,076.01",2124
+"Betz,David",Traffic Division,Parking Meter Supervisor,"14,643.08",,300,,,,,"14,943.08",2136
+"Becker,Edward C",Adult Education,Adult Ed-Tchr/Asst,"14,830.24",,,,,,,"14,830.24",2364
+"Yuen,Kai H",Athletics,Coach (NonTPP),"14,811.97",,,,,,,"14,811.97",2135
+"Gray,Maja Catherine",Finance,Employment Agreement,"14,432.60",,,,,,,"14,432.60",6753
+"Stevens,Andrew",Traffic Division,Vehicle Impound Specialist ##,"8,866.00",,,"5,348.28",,,,"14,214.28",2134
+"Baroletti Stewart,Lisa Marie",Adult Education,Teacher,"12,879.05",,148.71,,,,,"13,027.76",2072
+"Tisdol,Dyani",Traffic Division,Employment Agreement,"12,900.00",,,,,,,"12,900.00",2114
+"De Pace,Francesco",Athletics,Coach (NonTPP),"12,718.98",,,,,,,"12,718.98",2155
+"Keady Jr.,Thomas Joseph.",Athletics,Coach (NonTPP),"11,554.69",,,,,,,"11,554.69",2132
+"Ammirati,Philip Lawrence",Traffic Division,Dispatcher,"10,935.47",,300,244.86,,,,"11,480.33",2125
+"Yandle,Nora Marie",Traffic Division,Jr Eng Aid,"11,202.80",,,,,,,"11,202.80",2129
+"Brown,Lola M.",Traffic Division,Parking Meter Supervisor,"10,676.48",326.74,,22.67,,,,"11,025.89",2130
+"Ortiz,Jorge",Traffic Division,Employment Agreement,"10,717.50",,,,,,,"10,717.50",2121
+"Ruiz,Eugenio",Traffic Division,Dispatcher,"10,300.69",,300,113.3,,,,"10,713.99",2131
+"Zephir,Elisabeth",Traffic Division,Employment Agreement,"10,022.25",,,,,,,"10,022.25",2128
+"Ulysse,Luc Junior",Athletics,Coach (TPP),"9,371.54",,,,,,,"9,371.54",2126
+"Mylett,Brian E",Athletics,Coach (NonTPP),"9,337.02",,,,,,,"9,337.02",2124
+"Murray,Sentry Lynette",Traffic Division,Parking Meter Supervisor,"8,993.53",,300,,,,,"9,293.53",2120
+"Frias Sanchez,Alfredo Yael",Traffic Division,Parking Meter Supervisor,"8,993.53",,300,,,,,"9,293.53",2121
+"Gonzalez,Joshua Alejandro",Athletics,Coach (NonTPP),"9,214.33",,,,,,,"9,214.33",2131
+"Smith,Asia",Traffic Division,Parking Meter Supervisor,"8,888.63",279.27,,,,,,"9,167.90",2125
+"Taylor,Marcus Lee",Traffic Division,Parking Meter Supervisor,"8,775.90",,300,,,,,"9,075.90",2124
+"Hill,Gerald Michael",Traffic Division,Parking Meter Supervisor,"8,755.36",,300,,,,,"9,055.36",2121
+"Branch Jr.,Michael L.",Athletics,Coach (NonTPP),"8,899.01",,,,,,,"8,899.01",2368
+"Ciaccio,Brandon",Athletics,Coach (NonTPP),"8,899.01",,,,,,,"8,899.01",2128
+"Macasay,Samuel Emil",Athletics,Coach (NonTPP),"8,899.01",,,,,,,"8,899.01",2135
+"Sneed,Andre",Traffic Division,Parking Meter Supervisor,"8,237.68",,300,,352.82,,,"8,890.50",2114
+"Teixeria De Andrade,Nilton",Athletics,Coach (NonTPP),"8,886.00",,,,,,,"8,886.00",2124
+"Copeland,Brenndon",Traffic Division,Parking Meter Supervisor,"8,442.89",,300,,,,,"8,742.89",2131
+"Lawlor,Ann-Marie Lane",Traffic Division,Employment Agreement,"8,617.50",,,,,,,"8,617.50",2131
+"Rice,John R",Athletics,Coach (NonTPP),"8,253.35",,,,,,,"8,253.35",2368
+"Bui,Rocky",Traffic Division,Parking Meter Supervisor,"7,831.72",,300,,,,,"8,131.72",2124
+"Vidal,Chad James",Traffic Division,Traffic Signal Repairprs##,"7,771.41",,300,,,,,"8,071.41",2122
+"Mojica,Richard",Athletics,Coach (NonTPP),"8,040.00",,,,,,,"8,040.00",2126
+"Barreto,Eddie",Athletics,Coach (NonTPP),"8,033.98",,,,,,,"8,033.98",2124
+"Corbett,Cornelius",Traffic Division,Parking Meter Supervisor,"7,980.70",,,,,,,"7,980.70",2134
+"Bruton,Lavell",Athletics,Coach (NonTPP),"7,897.98",,,,,,,"7,897.98",2119
+"Jacob,Deja",Traffic Division,Parking Meter Supervisor,"7,646.65",225.81,,,,,,"7,872.46",2124
+"Chatman,George Joshua",Athletics,Coach (NonTPP),"7,637.33",,,,,,,"7,637.33",2125
+"Johnson,Terrence L.",Traffic Division,Sr Traffic Maint Person##,"7,265.61",,300,,,,,"7,565.61",2126
+"Maisonneuve,Jean",Traffic Division,Parking Meter Supervisor,"7,543.33",,,,,,,"7,543.33",2124
+"Powell,Ian",Traffic Division,Parking Meter Supervisor,"7,536.69",,,,,,,"7,536.69",2114
+"Conroy,Caroline Claire",Athletics,Coach (NonTPP),"7,533.00",,,,,,,"7,533.00",2127
+"Acosta,Victor M",Athletics,Coach (NonTPP),"7,533.00",,,,,,,"7,533.00",2368
+"Sullivan,George",Athletics,Coach (NonTPP),"7,533.00",,,,,,,"7,533.00",2186
+"Barrantes,Victoria Nicole",Athletics,Coach (NonTPP),"7,533.00",,,,,,,"7,533.00",2120
+"Richelieu,Marc Antoine",Adult Education,Intern 3,"7,520.18",,,,,,,"7,520.18",2452
+"Krawec,Richard John",Traffic Division,Traffic Signal Repairprs##,"7,176.06",,300,,,,,"7,476.06",2132
+"Mondesir,Hardy",Athletics,Coach (NonTPP),"7,406.00",,,,,,,"7,406.00",2136
+"Fisher,Gertrude",Athletics,Coach (NonTPP),"7,405.99",,,,,,,"7,405.99",2301
+"Rudzinski,John R",Athletics,Coach (NonTPP),"7,405.99",,,,,,,"7,405.99",2131
+"Nguyen,Myphi",Athletics,Coach (NonTPP),"7,405.99",,,,,,,"7,405.99",2351
+"Mendez,Sofia",Athletics,Coach (NonTPP),"7,405.99",,,,,,,"7,405.99",1841
+"DiCicco,Nicholas",Athletics,Coach (NonTPP),"7,405.99",,,,,,,"7,405.99",2131
+"Wilson,Paulanne D",Athletics,Coach (NonTPP),"7,405.98",,,,,,,"7,405.98",1760
+"Bazzinotti,Maureen Marie",Traffic Division,Parking Meter Supervisor,"7,043.02",,,,,,,"7,043.02",2125
+"Dean,Charles Jerome",Athletics,Coach (NonTPP),"6,688.02",,,,,,,"6,688.02",2122
+"Greene,Ashley Danita",Athletics,Coach (NonTPP),"6,602.68",,,,,,,"6,602.68",2126
+"Bramante,Vanessa",Athletics,Coach (TPP),"6,581.65",,,,,,,"6,581.65",2180
+"Rougier,Alishia-Kae Nichola",Traffic Division,Jr Traffic Engr,"6,255.95",,300,,,,,"6,555.95",2121
+"Dixon,Kenneara",Traffic Division,Parking Meter Supervisor,"6,015.81",,,332.52,,,,"6,348.33",2119
+"Tran,Joshua",Athletics,Coach (NonTPP),"6,336.50",,,,,,,"6,336.50",2121
+"Berry,Thomas Breandan",Traffic Division,Sr Traffic Maint Person##,"5,818.47",,300,,,,,"6,118.47",2127
+"Ciccone,Cara Dowdle",Athletics,Coach (NonTPP),"6,000.00",,,,,,,"6,000.00",2129
+"Guerard,Mark",Athletics,Coach (NonTPP),"5,994.15",,,,,,,"5,994.15",2122
+"Bembury,Lance A",Athletics,Coach (NonTPP),"5,421.00",,,,,,,"5,421.00",2368
+"Crane,Andrew B",Athletics,Coach (NonTPP),"5,421.00",,,,,,,"5,421.00",2130
+"Gomez,Cindy",Athletics,Coach (NonTPP),"5,421.00",,,,,,,"5,421.00",2134
+"Henderson,Emerald C",Athletics,Coach (NonTPP),"5,421.00",,,,,,,"5,421.00",2118
+"Vilmont,Nadia",Athletics,Coach (NonTPP),"5,421.00",,,,,,,"5,421.00",2121
+"Chenell,Herbert Lincoln",Athletics,Coach (NonTPP),"5,421.00",,,,,,,"5,421.00",2132
+"Warner-Hatten,Tineisha Cornella",Athletics,Coach (NonTPP),"5,421.00",,,,,,,"5,421.00",2301
+"Lopez-Najera,Mercy",Adult Education,Adult Ed-Tchr/Asst,"5,288.53",,,,,,,"5,288.53",2136
+"Estrella Acosta,Yescleyris",Traffic Division,Vehicle Impound Specialist ##,"4,242.45",,300,668.19,,,,"5,210.64",2128
+"Zhang,Edmund",Athletics,Coach (NonTPP),"5,184.00",,,,,,,"5,184.00",2171
+"Oliver,Lornannette S",Adult Education,Intern 3,"4,847.80",,,,,,,"4,847.80",2119
+"Lionette,James W",Athletics,Coach (NonTPP),"4,821.00",,,,,,,"4,821.00",2130
+"Halliday,Ian Patrick",Athletics,Coach (NonTPP),"4,821.00",,,,,,,"4,821.00",2125
+"Gomes Lopes,Jose",Traffic Division,Sr Traffic Maint Person##,"4,156.05",,300,,,,,"4,456.05",2125
+"Soto-Martinez,Giovanni Jose",Athletics,Coach (NonTPP),"4,449.49",,,,,,,"4,449.49",2134
+"Marin Betancurt,Stephan",Athletics,Coach (NonTPP),"4,443.60",,,,,,,"4,443.60",2151
+"Angui,Achi Ange Marcel",Athletics,Coach (NonTPP),"4,443.60",,,,,,,"4,443.60",2124
+"Woodcock,Cleo Frances",Athletics,Coach (NonTPP),"4,443.00",,,,,,,"4,443.00",2130
+"Nguyen,Kimvy Thi",Adult Education,Adult Ed-Tchr/Asst,"4,309.17",,,,,,,"4,309.17",2170
+"Castano Parra,Darla amely",Athletics,Coach (NonTPP),"1,500.00",,"2,550.00",,,,,"4,050.00",2124
+"Joseph,Yvel A",Athletics,Coach (NonTPP),"4,000.00",,,,,,,"4,000.00",2322
+"Jean-Baptiste,Clark",Athletics,Coach (NonTPP),"3,793.98",,,,,,,"3,793.98",2155
+"Aponte,Carmen M",Traffic Division,Parking Meter Supervisor,"3,596.02",,,,,,,"3,596.02",2124
+"Mannion,Brendan",Athletics,Coach (NonTPP),"3,565.05",,,,,,,"3,565.05",2122
+"Shea,Chloe Elizabeth",Athletics,Coach (NonTPP),"3,337.02",,,,,,,"3,337.02",2129
+"Kaba,Kain Jakiety",Athletics,Coach (NonTPP),"3,228.00",,,,,,,"3,228.00",2119
+"Gutierrez Bedoya,Santiago",Athletics,Coach (NonTPP),,,"3,000.00",,,,,"3,000.00",2128
+"Johnson,Chuckearah",Athletics,Coach (NonTPP),"3,000.00",,,,,,,"3,000.00",2128
+"Biron,Dominique Irene",Athletics,Coach (NonTPP),"3,000.00",,,,,,,"3,000.00",2115
+"Pham,Samuel",Athletics,Coach (NonTPP),"3,000.00",,,,,,,"3,000.00",2128
+"Bishop,Rowan",Athletics,Coach (NonTPP),"3,000.00",,,,,,,"3,000.00",2474
+"Hostetter,Kirstie Dolores",Traffic Division,Trans Program Planner III,,,"2,820.36",,,,,"2,820.36",2128
+"Barnes-Lacey,Keyshawn Jerome Jack",Athletics,Coach (NonTPP),"2,158.17",,,,,,,"2,158.17",2125
+"Brown,Jamal W",Traffic Division,Parking Meter Supervisor,"1,879.95",,,,,,,"1,879.95",2119
+"Nguyen,Toan",Traffic Division,Gen Maint Mech,"1,612.24",,,120.92,,,,"1,733.16",2124
+"Mahoney,William J",Athletics,Coach (NonTPP),"1,500.00",,,,,,,"1,500.00",2132
+"Blake,Carroll W",Athletics,Coach (NonTPP),"1,500.00",,,,,,,"1,500.00",2130
+"Myrtil,Leah Victoria",Athletics,Coach (NonTPP),"1,500.00",,,,,,,"1,500.00",2124
+"Sinatra,Kevin",Athletics,Coach (NonTPP),"1,500.00",,,,,,,"1,500.00",2128
+"Mojica,Cristian",Athletics,Coach (NonTPP),"1,500.00",,,,,,,"1,500.00",2126
+"Hicks,Anthony",Athletics,Coach (NonTPP),"1,500.00",,,,,,,"1,500.00",2121
+"Salomon,Stanley N/A",Athletics,Coach (NonTPP),"1,500.00",,,,,,,"1,500.00",2171
+"Devin,Max Anthony",Athletics,Coach (NonTPP),"1,500.00",,,,,,,"1,500.00",2186
+"Hall,John H",Athletics,Coach (NonTPP),"1,500.00",,,,,,,"1,500.00",1960
+"Ruiz,Carlos Andres",Athletics,Coach (NonTPP),"1,500.00",,,,,,,"1,500.00",2128
+"Berry,Raymond Neill",Athletics,Coach (NonTPP),"1,500.00",,,,,,,"1,500.00",2072
+"Lara,Hernhy Estaury",Athletics,Coach (NonTPP),"1,500.00",,,,,,,"1,500.00",2121
+"Crown,Emily",Athletics,Coach (NonTPP),"1,500.00",,,,,,,"1,500.00",2127
+"Acevedo Torres,Nayelie Del Mar",Athletics,Coach (NonTPP),"1,500.00",,,,,,,"1,500.00",2124
+"wilson,Dante Scott",Athletics,Coach (NonTPP),"1,500.00",,,,,,,"1,500.00",2116
+"mortali,mitchell paul",Athletics,Coach (NonTPP),"1,500.00",,,,,,,"1,500.00",2081
+"Berardi,Kathryn",Athletics,Coach (NonTPP),"1,500.00",,,,,,,"1,500.00",2131
+"Querubin,Luis",Athletics,Coach (NonTPP),"1,500.00",,,,,,,"1,500.00",2152
+"Navarro,Elvis Antonio",Athletics,Coach (NonTPP),"1,500.00",,,,,,,"1,500.00",2128
+"Demosthene,Harry",Athletics,Coach (NonTPP),"1,500.00",,,,,,,"1,500.00",2122
+"Sadowski,Matthew Jon",Athletics,Coach (NonTPP),"1,500.00",,,,,,,"1,500.00",2125
+"Daly,Patrick Austin",Athletics,Coach (NonTPP),"1,500.00",,,,,,,"1,500.00",2148
+"Mohamed,Saalah Osman",Athletics,Coach (NonTPP),"1,500.00",,,,,,,"1,500.00",2135
+"Driver,Janelle Ella",Traffic Division,Parking Meter Supervisor,"1,329.27",,,,,,,"1,329.27",2122
+"Whitehall,Corey Karlo Michael",Athletics,Coach (NonTPP),"1,316.33",,,,,,,"1,316.33",2124
+"Jalloh,Alhaji Yankuba",Athletics,Coach (NonTPP),"1,210.50",,,,,,,"1,210.50",2125
+"Zhang,Ziyou",Athletics,Coach (NonTPP),"1,210.50",,,,,,,"1,210.50",2132
+"Lewis,Joseph",Traffic Division,Vehicle Impound Specialist ##,799.47,32.19,,206.47,,,,"1,038.13",2125
+"Molle,Kimberly",Athletics,Coach (NonTPP),"1,028.61",,,,,,,"1,028.61",2124
+"Malone,Jessica Ann",Traffic Division,Dispatcher,"1,003.25",,,,,,,"1,003.25",2127
+"Butler,Tyler",Traffic Division,Sr Traffic Maint Person##,831.21,,,,,,,831.21,2124
+"Cheung,Janet",Traffic Division,Jr Eng Aid,775.09,,,,,,,775.09,2134
+"Hunt,Zoe",Traffic Division,Jr Eng Aid,775.09,,,,,,,775.09,2120
+"Ching,Brey-Michael",Traffic Division,Jr Eng Aid,775.09,,,,,,,775.09,2115
+"Hoyt,Anne",Finance,Employment Agreement,500,,,,,,,500,2633
+"Badgett,Rakeem R",Traffic Division,Vehicle Impound Specialist ##,,,365.41,,,,,365.41,2121
+"Floyd,Chloe L",Traffic Division,Parking Meter Supervisor,,128.6,,,,,,128.6,2124
+"Kennedy Sr.,Donald R.",Finance,Employment Agreement,112.5,,,,,,,112.5,21231

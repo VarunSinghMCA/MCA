@@ -1,0 +1,79 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+
+# -----------------------------
+# 1️⃣ Load your dataset
+# -----------------------------
+# Example: replace with your actual dataset
+# dataset = pd.read_csv("your_dataset.csv")
+
+# Ensure 'pcs', 'female', 'racegrp' columns exist
+# dataset.head()
+
+# -----------------------------
+# 2️⃣ Sampling Functions
+# -----------------------------
+
+# Simple Random Sampling
+simple_random_sample = dataset.sample(n=30, random_state=42)
+
+# Systematic Sampling
+k = len(dataset) // 30  # sampling interval
+systematic_sample = dataset.iloc[::k, :].head(30)  # every k-th observation
+
+# Stratified Sampling (by female)
+stratified_sample = (
+    dataset.groupby('female', group_keys=False)
+    .apply(lambda x: x.sample(int(30 * len(x) / len(dataset)), random_state=42))
+)
+
+# Cluster Sampling (clusters = racegrp)
+clusters = dataset['racegrp'].unique()
+chosen_clusters = np.random.choice(clusters, size=2, replace=False)
+cluster_sample = dataset[dataset['racegrp'].isin(chosen_clusters)].sample(n=30, random_state=42)
+
+# -----------------------------
+# 3️⃣ Function for Summary Stats
+# -----------------------------
+def sample_stats(data, var):
+    return pd.Series({
+        'Mean': data[var].mean(),
+        'Median': data[var].median(),
+        'Mode': data[var].mode().iloc[0] if not data[var].mode().empty else np.nan,
+        'Variance': data[var].var(),
+        'Std Deviation': data[var].std()
+    })
+
+# -----------------------------
+# 4️⃣ Compute for Each Sampling Method
+# -----------------------------
+stats_summary = pd.DataFrame({
+    'Simple Random': sample_stats(simple_random_sample, 'pcs'),
+    'Systematic': sample_stats(systematic_sample, 'pcs'),
+    'Stratified': sample_stats(stratified_sample, 'pcs'),
+    'Cluster': sample_stats(cluster_sample, 'pcs')
+}).T
+
+# -----------------------------
+# 5️⃣ (Optional) Compare with Population
+# -----------------------------
+population_stats = sample_stats(dataset, 'pcs')
+
+# -----------------------------
+# 6️⃣ Display Results
+# -----------------------------
+print("\n📊 Summary Statistics for PCS Across Sampling Methods:\n")
+print(stats_summary.round(3))
+
+print("\n📈 Population Statistics:\n")
+print(population_stats.round(3))
+
+# -----------------------------
+# 7️⃣ (Optional) Visualization
+# -----------------------------
+stats_summary[['Mean', 'Std Deviation']].plot(kind='bar', figsize=(8, 5))
+plt.title('Comparison of Mean and Std Deviation (PCS) Across Sampling Methods')
+plt.ylabel('Value')
+plt.xticks(rotation=0)
+plt.show()

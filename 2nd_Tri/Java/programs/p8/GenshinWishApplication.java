@@ -23,7 +23,7 @@ class InvalidWishInputException extends RuntimeException {
 }
 
 interface Wishable {
-    String rollItem();
+    String rollItem();`
 }
 
 interface WishStatistics {
