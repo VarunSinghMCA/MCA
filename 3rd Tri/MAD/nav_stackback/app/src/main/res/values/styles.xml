@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ShadowButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_shadow</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:minWidth">200dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>
