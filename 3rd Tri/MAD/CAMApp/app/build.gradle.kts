@@ -2,6 +2,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.ksp)
 }
 
@@ -39,9 +40,10 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
-    // Using XML Views, so Compose is NOT needed
+    // Enable Jetpack Compose
     buildFeatures {
-        viewBinding = true
+        compose = true
+        viewBinding = true  // Keep for migration period
     }
 }
 
@@ -52,12 +54,25 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
 
+    // Jetpack Compose
+    implementation(platform("androidx.compose:compose-bom:2024.12.01"))
+    implementation("androidx.compose.ui:ui")
+    implementation("androidx.compose.ui:ui-graphics")
+    implementation("androidx.compose.ui:ui-tooling-preview")
+    implementation("androidx.compose.material3:material3")
+    implementation("androidx.activity:activity-compose:1.9.3")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.7")
+    implementation("androidx.lifecycle:lifecycle-runtime-compose:2.8.7")
+    implementation("androidx.compose.runtime:runtime-livedata")
+    debugImplementation("androidx.compose.ui:ui-tooling")
+    debugImplementation("androidx.compose.ui:ui-test-manifest")
+
     // Lifecycle (ViewModel + LiveData)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
     implementation(libs.androidx.lifecycle.livedata.ktx)
 
-    // RecyclerView (list of attendees)
+    // RecyclerView (list of attendees) - keeping for compatibility
     implementation(libs.androidx.recyclerview)
 
     // Room Database
