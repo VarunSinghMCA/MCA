@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <!-- Suppress pinning deprecation warnings for Android Q+ -->
+    <issue id="Pinning" severity="ignore" />
+
+    <!-- Allow cleartext traffic if needed for development -->
+    <!-- <issue id="UsesCleartextTraffic" severity="warn" /> -->
+</lint>
+
